@@ -1,6 +1,3 @@
-import tcass
-
-
 class Person(object):
     def __init__(self, name, gendar, age):
         self.name = name
