@@ -1,0 +1,2 @@
+python2通过是否继承Object类有新式和旧式类之分，通常来说均要继承Object(python3已解决该问题)
+dir 展现对象属性
