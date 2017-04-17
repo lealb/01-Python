@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 # Description: 糗事百科爬虫
+# 简单单线程
 # 4/14/17:5:07 PM
 from urllib import request
 import re
@@ -16,15 +17,15 @@ class QSBK:
         # 存放段子的变量，每一个元素是每一页的段子们
         self.stories = []
         # 存放程序是否继续运行的变量
-        self.enable = False
+        self.enable = True
 
-    # 传入某一页的索引获得页面代码
+    # 传入某一页的索引获得页面代码/页面下载器
     def getPage(self, pageIndex):
         try:
             url = 'http://www.qiushibaike.com/hot/page/' + str(pageIndex)
             # 构建请求的request
             req = request.Request(url)
-            req.add_header('User-Agent',self.user_agent)
+            req.add_header('User-Agent', self.user_agent)
             # 利用urlopen获取页面代码
             response = request.urlopen(req)
             # 将页面转化为UTF-8编码
@@ -36,7 +37,7 @@ class QSBK:
                 print("连接糗事百科失败,错误原因", e.reason)
                 return None
 
-    # 传入某一页代码，返回本页不带图片的段子列表
+    # 传入某一页代码，返回本页不带图片的段子列表/解释器
     def getPageItems(self, pageIndex):
         pageCode = self.getPage(pageIndex)
         if not pageCode:
@@ -46,7 +47,7 @@ class QSBK:
         #                      'content"><span>(.*?)</span><!--(.*?)-->.*?</div>(.*?)<div class="stats.*?'+
         #                      'class="number">(.*?)</i>',
         #                      re.S)
-        pattern = re.compile('h2>(.*?)</h2.*?content">(.*?)</.*?number">(.*?)</',re.S)
+        pattern = re.compile('h2>(.*?)</h2.*?content">(.*?)</.*?number">(.*?)</', re.S)
         items = re.findall(pattern, pageCode)
         # 用来存储每页的段子们
         pageStories = []
@@ -60,7 +61,7 @@ class QSBK:
             #     text = re.sub(replaceBR, "\n", item[1])
             #     # item[0]是一个段子的发布者，item[1]是内容，item[2]是发布时间,item[4]是点赞数
             #     pageStories.append([item[0].strip(), text.strip(), item[2].strip(), item[4].strip()])
-            pageStories.append([item[0].strip(),item[1].strip(),item[2].strip()])
+            pageStories.append([item[0].strip(), item[1].strip(), item[2].strip()])
         return pageStories
 
     # 加载并提取页面的内容，加入到列表中
@@ -89,12 +90,11 @@ class QSBK:
                 self.enable = False
                 return
             # print("第%d页\t发布人:%s\t发布时间:%s\t赞:%s\n%s" % (page, story[0], story[2], story[3], story[1]))
-            print("第%d页\t发布人：%s\t 赞：%s\n%s" %(page,story[0],story[2],story[1]))
+            print("第%d页\t发布人：%s\t 赞：%s\n%s" % (page, story[0], story[2], story[1]))
+
     # 开始方法
     def start(self):
         print("正在读取糗事百科,按回车查看新段子，Q退出")
-        # 使变量为True，程序可以正常运行
-        self.enable = True
         # 先加载一页内容
         self.loadPage()
         # 局部变量，控制当前读到了第几页
