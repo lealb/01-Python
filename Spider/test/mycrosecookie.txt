@@ -1,0 +1,6 @@
+# Netscape HTTP Cookie File
+# http://curl.haxx.se/rfc/cookie_spec.html
+# This is a generated file!  Do not edit.
+
+eol.gzu.edu.cn	FALSE	/eol	FALSE		BNES_JSESSIONID	cfNE0eBWH7SZE5lZNZ6iYTapYyzIalU+iv2yNdZ/EF1XvI2QxlxU8zutezk3rNurVC5wN6fuvQtjhugVkYy5fA9rbnvhlwYO
+eol.gzu.edu.cn	FALSE	/eol	FALSE		JSESSIONID	798AC3B9EE08DE90BA70D68D9BD1B5BE

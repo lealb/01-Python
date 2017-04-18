@@ -5,7 +5,6 @@ from baidutianba import tool
 from urllib import request
 import re
 
-
 class BDTB:
     # 初始化，传入基地址，是否只看楼主的参数
     def __init__(self, baseUrl, seeLZ = 0, floorTag = 1):
@@ -90,10 +89,6 @@ class BDTB:
             self.file.write(item.decode())
             self.floor += 1
 
-    # 文件关闭
-    def closeFile(self):
-        self.file.close()
-
     # 开始
     def start(self):
         indexPage = self.getPage(1)
@@ -117,5 +112,5 @@ class BDTB:
         except IOError as e:
             print("写入异常，原因" + e.message)
         finally:
-            self.closeFile()
+            self.file.close()
             print("写入任务完成")

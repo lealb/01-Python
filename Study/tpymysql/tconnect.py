@@ -5,26 +5,27 @@ import logging
 import itertools
 import pymysql
 from sqlite3 import OperationalError, Row
-from tpymysql import tablequeryer, insert
+from tpymysql import tablequeryer, tinsert
 
 
 class Connect(object):
-    def __init__(self, host, database, user=None, password=None):
+    def __init__(self, host='127.0.0.1', database=None, user='root', password=None):
         self.host = host
-        self.database = database
-
+        if database is not None:
+            self.database = database
+        # 辅助参数 参照pymysql 函数
         args = dict(charset="utf8", database=database, init_command='SET time_zone = "+8:00"',
                     sql_mode="TRADITIONAL")
-
         if user is not None:
             args["user"] = user
         if password is not None:
-            args["passwd"] = password
+            args["password"] = password
 
         # We accept a path to a MySQL socket file or a host(:port) string
         if "/" in host:
             args["unix_socket"] = host
         else:
+            # 127.0.0.1:3306
             self.socket = None
             pair = host.split(":")
             if len(pair) == 2:
@@ -123,6 +124,7 @@ class Connect(object):
         cursor = self._cursor()
         try:
             cursor.execute(query, parameters)
+            print(1)
             return cursor.fetchone()[0]
         finally:
             cursor.close()
@@ -143,7 +145,7 @@ class Connect(object):
         '''
         Executes the given parameters to an insert SQL and execute it
         '''
-        return insert.Insert(self, table)(**datas)
+        return tinsert.Insert(self, table)(**datas)
 
     def executemany(self, query, parameters):
         """Executes the given query against all the given param sequences.
