@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Description:
+# Description: 百度贴吧爬虫
 # 4/17/17:10:31 AM
 from baidutianba import tool
 from urllib import request
