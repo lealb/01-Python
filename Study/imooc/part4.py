@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-# Description:如何拆分含有多种分隔符的字符串
+# Description:关于字符串
 # 2017/6/21:3:22
 import re, os
 
-
+# 4.1 如何拆分含有多种分隔符的字符串
 # 方法1 依次分割
 def mySplit(s, ds):
     res = [s]

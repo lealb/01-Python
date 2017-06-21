@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Description:
+# Description: 关于基本形式
 # 2017/6/20:13:33
 
 from random import randint, sample
