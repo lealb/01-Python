@@ -2,6 +2,7 @@
 # Description: 关于外部数据
 # 2017/6/22:1:48
 import csv
+import json
 
 
 def dealcsvDatabyStr(source, target):
@@ -25,7 +26,13 @@ def testbreak():
             print(i)
 
 
+def dealjsonData():
+    data = [{'a': 1, 'b': 2, 'c': 3}]
+    print(json.dumps(data, sort_keys=True, indent=4, separators=(',', ':')))
+
+
 if __name__ == "__main__":
     filname = "file/GSPC.csv"
-    dealcsvDatabyStr(filname, "file/result.csv")
-    #testbreak()
+    # dealcsvDatabyStr(filname, "file/result.csv")
+    # testbreak()
+    dealjsonData()
