@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13afface-d663-4046-910b-99067c5cdae8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Study/login/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Study/login/csdn.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Study/login/douban.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Study/login/niit.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Study/login/zhihu.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Study/runoob/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Study/runoob/pr1.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Study/runoob/pr2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Study/runoob/pr3.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Study/imooc/part6.py" afterPath="$PROJECT_DIR$/Study/imooc/part6.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Study/login/niit.py" afterPath="$PROJECT_DIR$/Study/login/niit.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Study/login/zhihu.py" afterPath="$PROJECT_DIR$/Study/login/zhihu.py" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,11 +54,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="zhihu.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="zhihu.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Study/login/zhihu.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1425">
-              <caret line="75" column="21" lean-forward="true" selection-start-line="75" selection-start-column="21" selection-end-line="75" selection-end-column="21" />
+            <state relative-caret-position="399">
+              <caret line="105" column="23" lean-forward="true" selection-start-line="105" selection-start-column="23" selection-end-line="105" selection-end-column="23" />
               <folding>
                 <element signature="e#59#74#0" expanded="true" />
               </folding>
@@ -74,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="niit.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="niit.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Study/login/niit.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="75" column="17" lean-forward="true" selection-start-line="75" selection-start-column="17" selection-end-line="75" selection-end-column="17" />
+            <state relative-caret-position="490">
+              <caret line="82" column="38" lean-forward="false" selection-start-line="82" selection-start-column="38" selection-end-line="82" selection-end-column="38" />
               <folding>
                 <element signature="e#110#125#0" expanded="true" />
               </folding>
@@ -187,9 +179,9 @@
         <option value="$PROJECT_DIR$/Study/login/test.py" />
         <option value="$PROJECT_DIR$/Study/login/zhihu1.py" />
         <option value="$PROJECT_DIR$/Study/login/zhihu2.py" />
-        <option value="$PROJECT_DIR$/Study/login/niit.py" />
-        <option value="$PROJECT_DIR$/Study/login/zhihu.py" />
         <option value="$PROJECT_DIR$/Study/login/csdn.py" />
+        <option value="$PROJECT_DIR$/Study/login/zhihu.py" />
+        <option value="$PROJECT_DIR$/Study/login/niit.py" />
       </list>
     </option>
   </component>
@@ -930,7 +922,7 @@
       <workItem from="1511617116259" duration="3106000" />
       <workItem from="1511686591546" duration="22000" />
       <workItem from="1511746900502" duration="31229000" />
-      <workItem from="1511832548136" duration="2664000" />
+      <workItem from="1511832548136" duration="3927000" />
     </task>
     <task id="LOCAL-00001" summary="runoob">
       <created>1491462759698</created>
@@ -950,7 +942,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="178595000" />
+    <option name="totallyTimeSpent" value="179858000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1381" height="925" extended-state="6" />
@@ -962,11 +954,11 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19656019" sideWeight="0.56620336" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2014742" sideWeight="0.53108996" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19656019" sideWeight="0.43379664" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19656019" sideWeight="0.43379664" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972628" sideWeight="0.49847794" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2014742" sideWeight="0.47183615" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2014742" sideWeight="0.46891" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2377469" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1249,6 +1241,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1257,6 +1250,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="99" lean-forward="true" selection-start-line="1" selection-start-column="99" selection-end-line="1" selection-end-column="99" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1280,22 +1274,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Study/login/niit.py">
+    <entry file="file://$PROJECT_DIR$/Study/login/zhihu.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="75" column="17" lean-forward="true" selection-start-line="75" selection-start-column="17" selection-end-line="75" selection-end-column="17" />
+        <state relative-caret-position="399">
+          <caret line="105" column="23" lean-forward="true" selection-start-line="105" selection-start-column="23" selection-end-line="105" selection-end-column="23" />
           <folding>
-            <element signature="e#110#125#0" expanded="true" />
+            <element signature="e#59#74#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Study/login/zhihu.py">
+    <entry file="file://$PROJECT_DIR$/Study/login/niit.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1425">
-          <caret line="75" column="21" lean-forward="true" selection-start-line="75" selection-start-column="21" selection-end-line="75" selection-end-column="21" />
+        <state relative-caret-position="490">
+          <caret line="82" column="38" lean-forward="false" selection-start-line="82" selection-start-column="38" selection-end-line="82" selection-end-column="38" />
           <folding>
-            <element signature="e#59#74#0" expanded="true" />
+            <element signature="e#110#125#0" expanded="true" />
           </folding>
         </state>
       </provider>

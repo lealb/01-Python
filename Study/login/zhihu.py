@@ -106,5 +106,7 @@ if __name__ == '__main__':
     if zhihu.isLogin():
         print('Login')
     else:
-        zhihu.login("18786131928", "61Zhihu")
+        username = input("UserName:")
+        password = input("Password:")
+        zhihu.login(username,password)
     print("Login UserName:", zhihu.getInfo())

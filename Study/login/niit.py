@@ -21,7 +21,7 @@ class NIIT(object):
         }
         self.session = requests.Session()
         self.session.cookies = http.cookiejar.LWPCookieJar(filename='NIITCookies')
-        self.home_url="http://www.training-china.com/index.html"
+        self.home_url = "http://www.training-china.com/index.html"
         self.user_url = "http://www.training-china.com/setting/basic"
         self.loginurl = 'http://www.training-china.com/loginvalidate.html'
         try:
@@ -78,5 +78,7 @@ if __name__ == '__main__':
         print("Need Login:")
         print(niit.session.get(niit.user_url, headers=niit.headers).text)
     else:
-        niit.login('yingjiang.li@esgyn.cn', '61NIIT!')
+        username = input("UserName:")
+        password = input("Password:")
+        niit.login(username, password)
     print("Login UserName:", niit.getUserInfo())
