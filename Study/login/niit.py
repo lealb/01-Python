@@ -8,6 +8,7 @@
 import requests
 import http.cookiejar
 from bs4 import BeautifulSoup
+import time
 
 
 class NIIT(object):
@@ -32,7 +33,7 @@ class NIIT(object):
 
     def login(self, username, password):
         """
-        login
+        login 自动登陆送积分
         :param username:
         :param password:
         :return:
@@ -71,14 +72,39 @@ class NIIT(object):
         soup = BeautifulSoup(self.session.get(self.user_url, headers=self.headers).text, "lxml")
         return soup.find("div", {"class": "control-text"}).string
 
+    def follow(self):
+        start = time.clock()
+        # 10000-77200 目前
+        """关注好友挣积分
+        优化 声明多个线程，分割多段进行提交
+        """
+        for i in range(13300, 77200):
+            self.follow_url = "http://www.training-china.com/notice/" + str(i) + "/follow.html?notice_IsFaculty=1"
+            # notice/76941/follow.html?notice_IsFaculty=0
+            res = self.session.get(self.follow_url, headers=self.headers)
+
+        end = time.clock()
+        print("Return:", res.text)
+        print("Run Time: %s Seconds" % (end - start))
+
+    def addGroup(self):
+        """
+        加入学团送积分
+        :return:
+        """
+        pass
+
 
 if __name__ == '__main__':
     niit = NIIT()
     if niit.isLogin():
-        print("Need Login:")
+        print("Login:")
         print(niit.session.get(niit.user_url, headers=niit.headers).text)
     else:
         username = input("UserName:")
         password = input("Password:")
+
         niit.login(username, password)
     print("Login UserName:", niit.getUserInfo())
+    niit.follow()
+
