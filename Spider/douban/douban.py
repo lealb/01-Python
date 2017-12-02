@@ -36,7 +36,7 @@ for i in range(10):
 
         # 写入文件
         with open("top250.txt", "a") as f:
-            f.write(qqq
+            f.write(
                 "TOP%s\n影片名称：%s\n评分：%s %s\n上映日期：%s\n上映国家：%s\n%s\n" % (k, title, rate, comCount, date, country, info_1))
 
             f.write("==========================\n")

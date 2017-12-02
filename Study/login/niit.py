@@ -18,7 +18,11 @@ class NIIT(object):
         :param headers: 防止服务器端反爬虫，添加伪装头部信息
         """
         self.headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+            'User-Agent':  # {
+                'User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko'
+            #  'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36'
+            # }
+
         }
         self.session = requests.Session()
         self.session.cookies = http.cookiejar.LWPCookieJar(filename='NIITCookies')
@@ -79,13 +83,36 @@ class NIIT(object):
         优化 声明多个线程，分割多段进行提交
         """
         for i in range(13300, 77200):
-            self.follow_url = "http://www.training-china.com/notice/" + str(i) + "/follow.html?notice_IsFaculty=1"
+            follow_url = "http://www.training-china.com/notice/"+str(i)+"/unfollow.html?notice_IsFaculty=1"
             # notice/76941/follow.html?notice_IsFaculty=0
-            res = self.session.get(self.follow_url, headers=self.headers)
+            res = self.session.get(follow_url, headers=self.headers)
 
         end = time.clock()
         print("Return:", res.text)
         print("Run Time: %s Seconds" % (end - start))
+
+    def video(self):
+        """
+        course/index25/22/151/finish.html
+        index57/143 3704-3724
+        index25/22 150-156
+        index25/21 80-99
+        index19/23 232-298
+        index52/30 761-856
+        index47/29 733-760
+        kafka index3/7 151-161
+        hadoop 编程 index3/17 37-79
+        使用Sqoop 进行数据交换 index3/9 142-145
+        hbase 企业应用程序开发 index/18 100-141
+        :return:
+        """
+        # video_list=["index25",]
+        course_id = "index3/161/"
+        for i in range(4216, 4223):
+            video_url = "http://www.training-china.com/course/" + course_id + str(i) + "/finish.html"
+            time.sleep(10)
+            res = self.session.get(video_url, headers=self.headers)
+        print(res.text)
 
     def addGroup(self):
         """
@@ -93,6 +120,13 @@ class NIIT(object):
         :return:
         """
         pass
+
+    def article(self):
+
+        for i in range(16, 21):
+            article_url = "http://www.training-china.com/kn/contents/article" + str(i) + ".html"
+            res = self.session.get(article_url, headers=self.headers)
+        print(res.text)
 
 
 if __name__ == '__main__':
@@ -103,8 +137,8 @@ if __name__ == '__main__':
     else:
         username = input("UserName:")
         password = input("Password:")
-
         niit.login(username, password)
     print("Login UserName:", niit.getUserInfo())
-    niit.follow()
-
+    niit.video()
+    # niit.article()
+    # niit.follow()
