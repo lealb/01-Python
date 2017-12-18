@@ -107,10 +107,10 @@ class NIIT(object):
         :return:
         """
         # video_list=["index25",]
-        course_id = "index3/161/"
-        for i in range(4216, 4223):
-            video_url = "http://www.training-china.com/course/" + course_id + str(i) + "/finish.html"
-            time.sleep(10)
+        course_id = "index52/30/"
+        for i in range(761, 900):
+            video_url = "http://www.training-china.com/course/"+course_id+str(i)+"/finish.html"
+            # time.sleep(10)
             res = self.session.get(video_url, headers=self.headers)
         print(res.text)
 

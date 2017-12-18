@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # Description: python 实例
 # 4/9/17:9:42 PM
-import cmath,random
+import cmath, random
 
 num = int(input("请输入一个数字: "))
 # num_sqrt = num ** 0.5
@@ -11,4 +11,4 @@ if num_sqrt.imag != 0:
 else:
     print('{0} 的平方根为 {1:0.3f}'.format(num, num_sqrt.real))
 
-print(random.randint(1,100)) # 随机生成1-100的随机数
+print(random.randint(1, 100))  # 随机生成1-100的随机数
