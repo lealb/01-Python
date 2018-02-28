@@ -83,7 +83,7 @@ class NIIT(object):
         优化 声明多个线程，分割多段进行提交
         """
         for i in range(13300, 77200):
-            follow_url = "http://www.training-china.com/notice/"+str(i)+"/unfollow.html?notice_IsFaculty=1"
+            follow_url = "http://www.training-china.com/notice/" + str(i) + "/unfollow.html?notice_IsFaculty=1"
             # notice/76941/follow.html?notice_IsFaculty=0
             res = self.session.get(follow_url, headers=self.headers)
 
@@ -109,7 +109,7 @@ class NIIT(object):
         # video_list=["index25",]
         course_id = "index52/30/"
         for i in range(761, 900):
-            video_url = "http://www.training-china.com/course/"+course_id+str(i)+"/finish.html"
+            video_url = "http://www.training-china.com/course/" + course_id + str(i) + "/finish.html"
             # time.sleep(10)
             res = self.session.get(video_url, headers=self.headers)
         print(res.text)
