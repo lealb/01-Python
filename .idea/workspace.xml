@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13afface-d663-4046-910b-99067c5cdae8" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Study/oldboy/moudle_os.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/oldboy/moudle_random.py" beforeDir="false" afterPath="$PROJECT_DIR$/Study/oldboy/moudle_random.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/oldboy/moudle_time.py" beforeDir="false" afterPath="$PROJECT_DIR$/Study/oldboy/moudle_time.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,6 +13,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Python$moudle_os.coverage" NAME="moudle_os Coverage Results" MODIFIED="1523522876190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study/oldboy" />
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="Python" />
   </component>
@@ -22,17 +24,38 @@
       <file leaf-file-name="decorator.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Study/oldboy/decorator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+            <state relative-caret-position="17">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="e#122#133#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="moudle_time.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="moudle_os.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Study/oldboy/moudle_os.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="generator.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Study/oldboy/generator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="782">
+              <caret line="46" column="27" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="moudle_time.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Study/oldboy/moudle_time.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+            <state>
+              <caret selection-end-line="3" selection-end-column="14" />
               <folding>
                 <element signature="e#99#110#0" expanded="true" />
               </folding>
@@ -65,7 +88,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Study/imooc/part2.8.py" />
         <option value="$PROJECT_DIR$/Study/imooc/part2.3" />
         <option value="$PROJECT_DIR$/Study/imooc/part4.1.py" />
         <option value="$PROJECT_DIR$/Study/imooc/part2.2.py" />
@@ -116,6 +138,7 @@
         <option value="$PROJECT_DIR$/Study/oldboy/decorator.py" />
         <option value="$PROJECT_DIR$/Study/oldboy/moudle_time.py" />
         <option value="$PROJECT_DIR$/Study/oldboy/moudle_random.py" />
+        <option value="$PROJECT_DIR$/Study/oldboy/moudle_os.py" />
       </list>
     </option>
   </component>
@@ -141,7 +164,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
@@ -181,6 +203,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -217,7 +240,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.decorator">
+  <component name="RunManager" selected="Python.moudle_os">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -394,25 +417,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="decorator" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Study" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Study/oldboy" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Study/oldboy/decorator.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="generator" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Study" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -446,6 +450,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Study/oldboy/higherOrderFun.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="moudle_os" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Study/oldboy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Study/oldboy/moudle_os.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -763,12 +786,17 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
-      <item itemvalue="Python.decorator" />
       <item itemvalue="Python.generator" />
       <item itemvalue="Python.higherOrderFun" />
       <item itemvalue="Python.moudle_random" />
       <item itemvalue="Python.moudle_time" />
+      <item itemvalue="Python.moudle_os" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.moudle_os" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
     <option name="externalProjectsViewState">
@@ -862,7 +890,8 @@
       <workItem from="1523434340573" duration="2383000" />
       <workItem from="1523520317160" duration="484000" />
       <workItem from="1523520847580" duration="228000" />
-      <workItem from="1523521117254" duration="469000" />
+      <workItem from="1523521117254" duration="694000" />
+      <workItem from="1523521868515" duration="1070000" />
     </task>
     <task id="LOCAL-00001" summary="runoob">
       <created>1491462759698</created>
@@ -885,26 +914,34 @@
       <option name="project" value="LOCAL" />
       <updated>1519804027265</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="clean">
+      <created>1523521756956</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1523521756956</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="292740000" />
+    <option name="totallyTimeSpent" value="294035000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1381" height="885" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.56912947" side_tool="true" visible="true" weight="0.20025674" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5705925" side_tool="true" visible="true" weight="0.1992238" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49847794" weight="0.32972628" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8083394" weight="0.19534282" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.43087053" visible="true" weight="0.20025674" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8076079" weight="0.19534282" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.42940745" visible="true" weight="0.1992238" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49719775" visible="true" weight="0.15727872" />
@@ -943,7 +980,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="runoob" />
     <MESSAGE value="page4" />
-    <option name="LAST_COMMIT_MESSAGE" value="page4" />
+    <MESSAGE value="clean" />
+    <option name="LAST_COMMIT_MESSAGE" value="clean" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -957,8 +995,31 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Study/oldboy/decorator.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#122#133#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/oldboy/moudle_time.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#99#110#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/oldboy/decorator.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+          <folding>
+            <element signature="e#122#133#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1159,13 +1220,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Study/oldboy/generator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1518">
-          <caret line="46" column="27" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Study/oldboy/fun.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="693">
@@ -1197,18 +1251,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Study/oldboy/decorator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        <state relative-caret-position="17">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#122#133#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/oldboy/generator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="46" column="27" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Study/oldboy/moudle_time.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        <state>
+          <caret selection-end-line="3" selection-end-column="14" />
           <folding>
             <element signature="e#99#110#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/oldboy/moudle_os.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
         </state>
       </provider>
     </entry>
