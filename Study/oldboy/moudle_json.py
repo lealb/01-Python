@@ -28,11 +28,11 @@ def test_pickle():
     data = {"k1": 123, "k2": "hello"}
     after = pickle.dumps(data)
     print(after)
-    with open("pickle.pk", 'wb') as file:
+    with open("data/pickle.pk", 'wb') as file:
         # 转换并写入文件
         pickle.dump(data, file)
 
-    with open("pickle.pk", "rb") as file:
+    with open("data/pickle.pk", "rb") as file:
         res = pickle.load(file)
         print(res)
 
@@ -48,15 +48,15 @@ def test_cpickle():
     print("dumping...")
 
     t1 = time.time()
-    pickle.dump(d, open("tmp1.dat", "wb"), True)
+    pickle.dump(d, open("data/tmp1.dat", "wb"), True)
     print("pickle-dump-True: %.3fs" % (time.time() - t1))
 
     t1 = time.time()
-    pickle.dump(d, open("tmp2.dat", "wb"))
+    pickle.dump(d, open("data/tmp2.dat", "wb"))
     print("pickle-dump-False: %.3fs" % (time.time() - t1))
 
     t1 = time.time()
-    json.dump(d, open("tmp3.dat", "w"))
+    json.dump(d, open("data/tmp3.dat", "w"))
     print("json-dump: %.3fs" % (time.time() - t1))
 
     s1 = os.stat("tmp1.dat").st_size
@@ -69,16 +69,16 @@ def test_cpickle():
     print("loading...")
 
     t1 = time.time()
-    with open("tmp1.dat", "rb") as obj1:
+    with open("data/tmp1.dat", "rb") as obj1:
         pickle.load(obj1)
     print("pickle-load-True: %.3fs" % (time.time() - t1))
 
     t1 = time.time()
-    with open("tmp2.dat", "rb") as obj2:
+    with open("data/tmp2.dat", "rb") as obj2:
         pickle.load(obj2)
     print("pickle-load-False: %.3fs" % (time.time() - t1))
     t1 = time.time()
-    with open("tmp3.dat", "rb") as obj3:
+    with open("data/tmp3.dat", "rb") as obj3:
         json.load(obj3)
     print("json-load-True: %.3fs" % (time.time() - t1))
 
@@ -92,5 +92,5 @@ if __name__ == "__main__":
     需要将少量、简单Python数据持久化到本地磁盘文件时可以考虑用pickle模块；
     需要将大量Python数据持久化到本地磁盘文件或需要一些简单的类似数据库的增删改查功能时，可以考虑用shelve模块
     """
-    # test_pickle()
-    test_cpickle()
+    test_pickle()
+    # test_cpickle()
