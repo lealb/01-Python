@@ -8,6 +8,7 @@ import pickle
 import time
 import random
 import os
+import shelve
 
 LENGTH = 1024 * 10240
 
@@ -83,6 +84,64 @@ def test_cpickle():
     print("json-load-True: %.3fs" % (time.time() - t1))
 
 
+class Person(object):
+    def __init__(self):
+        self.__name = "LEAL"
+        self.__age = 25
+
+    def __str__(self):
+        return "name: {}, age: {}".format(self.__name, self.__age)
+
+
+path = "data/shelve.txt"
+
+
+def shelve_write():
+    """
+    序列化
+    :return:
+    """
+
+    with shelve.open(path) as write:  # 打开
+        write["nums"] = [1, 2, 3, 4, 5]  # 写
+        write["obj"] = Person()
+
+
+def shelve_read():
+    """
+    反序列化
+    :return:
+    """
+    with shelve.open(path) as read:  # 打开
+        nums = read.get("nums")  # 读取
+        print(nums)
+        clazz = read["obj"]
+        print(clazz)
+
+        del read["obj"]  # 删除
+        print("obj" in read)
+
+        keys = list(read.keys())  # 所有key
+        print(keys)
+
+
+def shelve_func():
+    # 打开, filename:文件名, writeback:是否回写(True回写,耗内存), 返回Shelf对象
+    # shelve.open(filename, flag='c', protocol=None, writeback=False)
+    d = shelve.open(path)
+
+    # Shelf
+    # 支持字典支持的所有方法
+    # get(self, key, default=None) // 获取 == data = shelf["key"]
+    data = d.get("key")
+    d.sync()  # 同步(清空缓存,同步磁盘)
+    d.close()  # 同步并关闭
+
+    # class shelve.Shelf(dict, protocol=None, writeback=False, keyencoding='utf-8')
+    # class shelve.BsdDbShelf(dict, protocol=None, writeback=False, keyencoding='utf-8') // Shelf的子类
+    # class shelve.DbfilenameShelf(filename, flag='c', protocol=None, writeback=False) // Shelf的子类
+
+
 if __name__ == "__main__":
     """
     性能比较：
@@ -92,5 +151,7 @@ if __name__ == "__main__":
     需要将少量、简单Python数据持久化到本地磁盘文件时可以考虑用pickle模块；
     需要将大量Python数据持久化到本地磁盘文件或需要一些简单的类似数据库的增删改查功能时，可以考虑用shelve模块
     """
-    test_pickle()
+    # test_pickle()
     # test_cpickle()
+    shelve_write()
+    shelve_read()
