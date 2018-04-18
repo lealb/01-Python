@@ -2,27 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13afface-d663-4046-910b-99067c5cdae8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Spider/test/num2english.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spider/zhaopin/51job3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spider/zhaopin/51jobcsv.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spider/zhaopin/ExeclUtils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spider/zhaopin/Spider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spider/zhaopin/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spider/zhaopin/conf/app.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spider/zhaopin/conf/logger.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spider/zhaopin/logs/myapp.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spider/zhaopin/logs/myapp_h02.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spider/zhaopin/logs/myapp_h03.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spider/zhaopin/logs/stars_url_error.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spider/zhaopin/places_name.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spider/zhaopin/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spider/zhaopin/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spider/zhaopin/test1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spider/zhaopin/zhilian.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spider/zhaopin/zhilianzhaopin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/captcha/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Study/oldboy/data/mysql.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Study/oldboy/moudle_configParser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spider/spider_baike/spider_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Spider/spider_baike/spider_main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spider/zhaopin/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Spider/zhaopin/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/login/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Spider/login/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/login/csdn.py" beforeDir="false" afterPath="$PROJECT_DIR$/Spider/login/csdn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/login/douban.py" beforeDir="false" afterPath="$PROJECT_DIR$/Spider/login/douban.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/login/niit.py" beforeDir="false" afterPath="$PROJECT_DIR$/Spider/login/niit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/login/zhihu.py" beforeDir="false" afterPath="$PROJECT_DIR$/Spider/login/zhihu.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,6 +28,7 @@
     <SUITE FILE_PATH="coverage/Python$moudle_os.coverage" NAME="moudle_os Coverage Results" MODIFIED="1523522876190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study/oldboy" />
     <SUITE FILE_PATH="coverage/Python$moudle_json.coverage" NAME="moudle_json Coverage Results" MODIFIED="1523599179237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study/oldboy" />
     <SUITE FILE_PATH="coverage/Python$img_tools.coverage" NAME="img_tools Coverage Results" MODIFIED="1523978843672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/captcha" />
+    <SUITE FILE_PATH="coverage/Python$moudle_configParser.coverage" NAME="moudle_configParser Coverage Results" MODIFIED="1524067174093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study/oldboy" />
     <SUITE FILE_PATH="coverage/Python$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1523953309016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spider/zhaopin" />
     <SUITE FILE_PATH="coverage/Python$51job3.coverage" NAME="51job3 Coverage Results" MODIFIED="1523957487868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spider/zhaopin" />
     <SUITE FILE_PATH="coverage/Python$test.coverage" NAME="test Coverage Results" MODIFIED="1524042147587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spider/zhaopin" />
@@ -49,16 +40,30 @@
     <SUITE FILE_PATH="coverage/Python$num2english.coverage" NAME="num2english Coverage Results" MODIFIED="1524046746726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spider/test" />
     <SUITE FILE_PATH="coverage/Python$zhilianzhaopin.coverage" NAME="zhilianzhaopin Coverage Results" MODIFIED="1523946865176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spider/zhaopin" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="Python" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="num2english.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Spider/test/num2english.py">
+      <file leaf-file-name="moudle_configParser.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Study/oldboy/moudle_configParser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+            <state relative-caret-position="343">
+              <caret line="66" column="76" selection-start-line="66" selection-start-column="76" selection-end-line="66" selection-end-column="76" />
             </state>
           </provider>
         </entry>
@@ -98,9 +103,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Study/oldboy/process.py" />
-        <option value="$PROJECT_DIR$/Study/oldboy/higherOrderFun.py" />
-        <option value="$PROJECT_DIR$/Study/oldboy/fun.py" />
         <option value="$PROJECT_DIR$/Study/oldboy/generator.py" />
         <option value="$PROJECT_DIR$/Study/oldboy/test" />
         <option value="$PROJECT_DIR$/Study/oldboy/decorator.py" />
@@ -108,7 +110,6 @@
         <option value="$PROJECT_DIR$/Study/oldboy/moudle_random.py" />
         <option value="$PROJECT_DIR$/Study/oldboy/moudle_os.py" />
         <option value="$PROJECT_DIR$/Study/oldboy/moudle_sys.py" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Study/oldboy/moudle_json.py" />
         <option value="$PROJECT_DIR$/captcha-svm-master/svmutil.py" />
         <option value="$PROJECT_DIR$/captcha-svm-master/lib/svmutil.py" />
@@ -147,8 +148,12 @@
         <option value="$PROJECT_DIR$/captcha/cfg.py" />
         <option value="$PROJECT_DIR$/captcha/img_tools.py" />
         <option value="$PROJECT_DIR$/Spider/spider_baike/spider_main.py" />
-        <option value="$PROJECT_DIR$/Spider/zhaopin/test.py" />
         <option value="$PROJECT_DIR$/Spider/test/num2english.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/017d324f-ae58-4985-83d1-436b5828dff5/console.sql" />
+        <option value="$PROJECT_DIR$/Spider/zhaopin/test.py" />
+        <option value="$PROJECT_DIR$/Study/oldboy/data/mysql.conf" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/Study/oldboy/moudle_configParser.py" />
       </list>
     </option>
   </component>
@@ -158,10 +163,15 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="202" />
     <option name="width" value="1846" />
@@ -173,6 +183,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -184,46 +195,25 @@
             <path>
               <item name="Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python" type="462c0819:PsiDirectoryNode" />
-              <item name="captcha" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python" type="462c0819:PsiDirectoryNode" />
-              <item name="captcha" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python" type="462c0819:PsiDirectoryNode" />
-              <item name="captcha" type="462c0819:PsiDirectoryNode" />
-              <item name="imgs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="Play" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python" type="462c0819:PsiDirectoryNode" />
-              <item name="Spider" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python" type="462c0819:PsiDirectoryNode" />
-              <item name="Spider" type="462c0819:PsiDirectoryNode" />
-              <item name="spider_baike" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python" type="462c0819:PsiDirectoryNode" />
-              <item name="Spider" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="Study" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="Study" type="462c0819:PsiDirectoryNode" />
+              <item name="oldboy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
+              <item name="Study" type="462c0819:PsiDirectoryNode" />
+              <item name="oldboy" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Python" type="b2602c69:ProjectViewProjectNode" />
@@ -244,7 +234,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -252,27 +241,29 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SearchEverywhereHistoryKey" value="cut_all_pic&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/Study/oldboy/data/mysql.conf" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="D:/Python36" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\01-Work\Python\Spider\douban" />
-      <recent name="D:\01-Work\Python\Spider" />
-      <recent name="D:\01-Work\Python\Spider\zhaopin" />
-      <recent name="D:\01-Work\Python\captcha" />
-      <recent name="D:\01-Work\Python\Study\oldboy\data" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\01-Work\Python\Spider\zhaopin" />
       <recent name="D:\01-Work\Python\captcha-svm-master" />
       <recent name="D:\01-Work\Python\Study\imooc" />
       <recent name="$PROJECT_DIR$/Study" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\01-Work\Python\Spider" />
+      <recent name="D:\01-Work\Python\Spider\douban" />
+      <recent name="D:\01-Work\Python\Spider\zhaopin" />
+      <recent name="D:\01-Work\Python\captcha" />
+      <recent name="D:\01-Work\Python\Study\oldboy\data" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -287,7 +278,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.num2english">
+  <component name="RunManager" selected="Python.moudle_configParser">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -430,6 +421,25 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="moudle_configParser" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Study/oldboy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Study/oldboy/moudle_configParser.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="num2english" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -463,25 +473,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/captcha/predict.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="svm_train" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="01-Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/captcha" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/captcha/svm_train.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -834,25 +825,20 @@
     </configuration>
     <list>
       <item itemvalue="Python.img_tools" />
-      <item itemvalue="Python.svm_train" />
       <item itemvalue="Python.predict" />
       <item itemvalue="Python.test" />
       <item itemvalue="Python.num2english" />
+      <item itemvalue="Python.moudle_configParser" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.moudle_configParser" />
         <item itemvalue="Python.num2english" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.img_tools" />
         <item itemvalue="Python.predict" />
-        <item itemvalue="Python.svm_train" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SbtLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -950,6 +936,12 @@
       <workItem from="1523960584714" duration="656000" />
       <workItem from="1523974697048" duration="4175000" />
       <workItem from="1524033025562" duration="4368000" />
+      <workItem from="1524060074453" duration="1400000" />
+      <workItem from="1524061767685" duration="234000" />
+      <workItem from="1524062040487" duration="681000" />
+      <workItem from="1524062768690" duration="540000" />
+      <workItem from="1524063362590" duration="1092000" />
+      <workItem from="1524064520283" duration="2761000" />
     </task>
     <task id="LOCAL-00001" summary="runoob">
       <created>1491462759698</created>
@@ -983,27 +975,37 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="337303000" />
+    <option name="totallyTimeSpent" value="344011000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1381" height="885" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49962208" weight="0.32933334" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.20030235" side_tool="true" visible="true" weight="0.20133333" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.20121029" side_tool="true" visible="true" weight="0.2" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.19591528" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49743965" weight="0.19146183" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.79969764" weight="0.20133333" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.42328042" weight="0.19866666" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.494705" weight="0.1904762" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.79878974" visible="true" weight="0.2" />
+      <window_info anchor="bottom" x="0" y="0" width="1368" height="832" id="Terminal" order="7" sideWeight="0.41527987" weight="0.19863945" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49719775" visible="true" weight="0.17384732" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="SciView" order="4" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49719775" visible="true" weight="0.18910742" />
+      <window_info anchor="right" id="Database" order="3" weight="0.09228442" />
+      <window_info anchor="right" id="SciView" order="4" weight="0.18910742" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -1014,6 +1016,7 @@
       <window_info anchor="bottom" id="Messages" order="8" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Database Console" order="9" sideWeight="0.49924356" weight="0.3292517" />
       <window_info id="Nl-Palette" order="2" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Properties" order="3" />
@@ -1095,6 +1098,41 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Study/oldboy/fun.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/oldboy/fun.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="11" lean-forward="true" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/captcha/img_tools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4420">
+          <caret line="260" column="7" selection-start-line="260" selection-start-column="7" selection-end-line="260" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/captcha/img_tools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4420">
+          <caret line="260" column="7" lean-forward="true" selection-start-line="260" selection-start-column="7" selection-end-line="260" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spider/test/num2english.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Study/oldboy/moudle_json.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="628">
@@ -1276,16 +1314,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/captcha-svm-master/data/svm_train/last_test_pix_xy_8.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/captcha-svm-master/data/svm_train/svm_model_file">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1275" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/captcha-svm-master/data/svm_train/last_test_pix_xy_8.txt" />
+    <entry file="file://$PROJECT_DIR$/captcha-svm-master/data/svm_train/svm_model_file" />
     <entry file="file://$PROJECT_DIR$/captcha/svm_train.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1307,50 +1337,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/captcha/cfg.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spider/meizi/【66P】嫩白欲女顾灿全裸玫瑰牛奶浴 36D大奶赤裸裸诱惑你的眼球/1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spider/meizi/【66P】嫩白欲女顾灿全裸玫瑰牛奶浴 36D大奶赤裸裸诱惑你的眼球/2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spider/meizi/【66P】嫩白欲女顾灿全裸玫瑰牛奶浴 36D大奶赤裸裸诱惑你的眼球/3.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spider/meizi/【66P】嫩白欲女顾灿全裸玫瑰牛奶浴 36D大奶赤裸裸诱惑你的眼球/5.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spider/meizi/【66P】嫩白欲女顾灿全裸玫瑰牛奶浴 36D大奶赤裸裸诱惑你的眼球/7.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spider/meizi/【66P】嫩白欲女顾灿全裸玫瑰牛奶浴 36D大奶赤裸裸诱惑你的眼球/10.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spider/meizi/【66P】嫩白欲女顾灿全裸玫瑰牛奶浴 36D大奶赤裸裸诱惑你的眼球/11.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spider/meizi/【66P】嫩白欲女顾灿全裸玫瑰牛奶浴 36D大奶赤裸裸诱惑你的眼球/13.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spider/meizi/read">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Spider/qiushibaike/qsbk.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-816" />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spider/spider_baike/output.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spider/spider_baike/html_downloader.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Spider/spider_baike/spider_main.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1359,31 +1349,73 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Spider/test/num2english.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/captcha/cfg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/captcha/img_tools.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="241" column="23" lean-forward="true" selection-start-line="241" selection-start-column="23" selection-end-line="241" selection-end-column="23" />
-          <folding>
-            <element signature="e#17#26#0" expanded="true" />
-            <element signature="e#467#3622#0" />
-          </folding>
+        <state relative-caret-position="272">
+          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/oldboy/fun.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/017d324f-ae58-4985-83d1-436b5828dff5/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Spider/zhaopin/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="151" column="51" selection-start-line="151" selection-start-column="51" selection-end-line="151" selection-end-column="51" />
-          <folding>
-            <element signature="e#97#106#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="102">
+          <caret line="87" column="16" lean-forward="true" selection-start-line="87" selection-start-column="16" selection-end-line="87" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Spider/test/num2english.py">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        <state relative-caret-position="119">
+          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/oldboy/data/mysql.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python36/Lib/configparser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="933" column="8" selection-start-line="933" selection-start-column="8" selection-end-line="933" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/oldboy/moudle_configParser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="66" column="76" selection-start-line="66" selection-start-column="76" selection-end-line="66" selection-end-column="76" />
         </state>
       </provider>
     </entry>
@@ -1416,7 +1448,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Python 3.6.1 (D:\Python36\python.exe) interpreter library</last-edited>
+          <last-edited>Python 3.6 (Python) interpreter library</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

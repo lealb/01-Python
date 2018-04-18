@@ -7,13 +7,10 @@
 
 import re
 import pymysql
-
 from time import sleep
 from threading import Thread
 from bs4 import BeautifulSoup
 from urllib import (request, error, parse)
-
-
 
 job_loc_list = ['北京', '上海', '广州', '深圳', '天津', '武汉', '西安', '成都', '大连', '长春',
                 '沈阳', '南京', '济南', '青岛', '杭州', '苏州', '无锡', '宁波', '重庆', '郑州',
@@ -27,11 +24,12 @@ class ZLSpider(object):
 
     def __init__(self):
         self.headers = {'Host': 'sou.zhaopin.com',
-                   'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-                   'Referer': 'http://sou.zhaopin.com/jobs/searchresult.ashx',
-                   'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 '
-                                 '(KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36'
-                   }
+                        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,'
+                                  '*/*;q=0.8',
+                        'Referer': 'http://sou.zhaopin.com/jobs/searchresult.ashx',
+                        'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 '
+                                      '(KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36'
+                        }
         self.url_base = 'http://sou.zhaopin.com/jobs/searchresult.ashx?'
         self.conn = pymysql.connect(host='127.0.0.1', user='root', password='leal520', charset='utf8')
         self.cur = self.conn.cursor()
@@ -149,7 +147,7 @@ class ZLSpider(object):
         主函数运行
         :return:
         """
-        self.job_loc_cmd_get = ['北京', '上海','青岛','厦门']
+        self.job_loc_cmd_get = ['北京', '上海', '青岛', '厦门']
         self.job_name_cmd_get = ['python']
         url_list = []
         html_thread_object = []
