@@ -30,9 +30,9 @@ class SpiderMain(object):
                 count += 1
                 if count == 1000:
                     break
-            except:
+            except Exception as error:
                 except_count += 1
-                print("craw filed!")
+                print("craw filed!"+error)
         print("错误数" % except_count)
         # 输出收集好的数据
         self.outputer.output_html()

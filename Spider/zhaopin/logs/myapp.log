@@ -1,0 +1,497 @@
+2018-04-17 14:14:28 zhilian.py[line:275] INFO ============>bengin...
+2018-04-17 14:14:31 zhilian.py[line:231] INFO --->Now is saving! job_nums=1536
+2018-04-17 14:14:35 zhilian.py[line:231] INFO --->Now is saving! job_nums=1702
+2018-04-17 14:14:39 zhilian.py[line:231] INFO --->Now is saving! job_nums=1502
+2018-04-17 14:14:42 zhilian.py[line:231] INFO --->Now is saving! job_nums=1072
+2018-04-17 14:14:45 zhilian.py[line:231] INFO --->Now is saving! job_nums=731
+2018-04-17 14:14:48 zhilian.py[line:231] INFO --->Now is saving! job_nums=7222
+2018-04-17 14:14:52 zhilian.py[line:231] INFO --->Now is saving! job_nums=8965
+2018-04-17 14:14:55 zhilian.py[line:231] INFO --->Now is saving! job_nums=5120
+2018-04-17 14:14:58 zhilian.py[line:231] INFO --->Now is saving! job_nums=5162
+2018-04-17 14:15:01 zhilian.py[line:231] INFO --->Now is saving! job_nums=3010
+2018-04-17 14:15:05 zhilian.py[line:231] INFO --->Now is saving! job_nums=13279
+2018-04-17 14:15:08 zhilian.py[line:231] INFO --->Now is saving! job_nums=17471
+2018-04-17 14:15:12 zhilian.py[line:231] INFO --->Now is saving! job_nums=10974
+2018-04-17 14:15:16 zhilian.py[line:231] INFO --->Now is saving! job_nums=9710
+2018-04-17 14:15:19 zhilian.py[line:231] INFO --->Now is saving! job_nums=7128
+2018-04-17 14:15:23 zhilian.py[line:231] INFO --->Now is saving! job_nums=6258
+2018-04-17 14:15:26 zhilian.py[line:231] INFO --->Now is saving! job_nums=11036
+2018-04-17 14:15:29 zhilian.py[line:231] INFO --->Now is saving! job_nums=7179
+2018-04-17 14:15:32 zhilian.py[line:231] INFO --->Now is saving! job_nums=7221
+2018-04-17 14:15:36 zhilian.py[line:231] INFO --->Now is saving! job_nums=4020
+2018-04-17 14:15:39 zhilian.py[line:231] INFO --->Now is saving! job_nums=3062
+2018-04-17 14:15:42 zhilian.py[line:231] INFO --->Now is saving! job_nums=5585
+2018-04-17 14:15:45 zhilian.py[line:231] INFO --->Now is saving! job_nums=4793
+2018-04-17 14:15:48 zhilian.py[line:231] INFO --->Now is saving! job_nums=3379
+2018-04-17 14:15:52 zhilian.py[line:231] INFO --->Now is saving! job_nums=2013
+2018-04-17 14:15:55 zhilian.py[line:231] INFO --->Now is saving! job_nums=2385
+2018-04-17 14:15:58 zhilian.py[line:231] INFO --->Now is saving! job_nums=4351
+2018-04-17 14:16:02 zhilian.py[line:231] INFO --->Now is saving! job_nums=3120
+2018-04-17 14:16:05 zhilian.py[line:231] INFO --->Now is saving! job_nums=3019
+2018-04-17 14:16:09 zhilian.py[line:231] INFO --->Now is saving! job_nums=1807
+2018-04-17 14:16:13 zhilian.py[line:231] INFO --->Now is saving! job_nums=6035
+2018-04-17 14:16:17 zhilian.py[line:231] INFO --->Now is saving! job_nums=8381
+2018-04-17 14:16:21 zhilian.py[line:231] INFO --->Now is saving! job_nums=4823
+2018-04-17 14:16:24 zhilian.py[line:231] INFO --->Now is saving! job_nums=3222
+2018-04-17 14:16:30 zhilian.py[line:231] INFO --->Now is saving! job_nums=2734
+2018-04-17 14:16:33 zhilian.py[line:231] INFO --->Now is saving! job_nums=2562
+2018-04-17 14:16:36 zhilian.py[line:231] INFO --->Now is saving! job_nums=3721
+2018-04-17 14:16:39 zhilian.py[line:231] INFO --->Now is saving! job_nums=3139
+2018-04-17 14:16:43 zhilian.py[line:231] INFO --->Now is saving! job_nums=3498
+2018-04-17 14:16:46 zhilian.py[line:231] INFO --->Now is saving! job_nums=1528
+2018-04-17 14:16:49 zhilian.py[line:231] INFO --->Now is saving! job_nums=272
+2018-04-17 14:16:52 zhilian.py[line:231] INFO --->Now is saving! job_nums=393
+2018-04-17 14:16:55 zhilian.py[line:231] INFO --->Now is saving! job_nums=246
+2018-04-17 14:16:59 zhilian.py[line:231] INFO --->Now is saving! job_nums=145
+2018-04-17 14:17:04 zhilian.py[line:231] INFO --->Now is saving! job_nums=128
+2018-04-17 14:17:04 zhilian.py[line:219] DEBUG -------->15
+2018-04-17 14:17:04 zhilian.py[line:96] WARNING -------->15-->02
+2018-04-17 14:17:06 zhilian.py[line:114] WARNING -------->15-->05
+2018-04-17 14:17:06 zhilian.py[line:117] WARNING -------->15-->05-->01a
+2018-04-17 14:17:07 zhilian.py[line:119] WARNING -------->15-->05-->01b
+2018-04-17 14:17:07 zhilian.py[line:125] WARNING -------->15-->07-->finally
+2018-04-17 14:17:07 zhilian.py[line:128] WARNING -------->15-->08
+2018-04-17 14:17:07 zhilian.py[line:221] DEBUG -------->16
+2018-04-17 14:17:07 zhilian.py[line:227] DEBUG -------->17
+2018-04-17 14:17:07 zhilian.py[line:231] INFO --->Now is saving! job_nums=2202
+2018-04-17 14:17:07 zhilian.py[line:219] DEBUG -------->15
+2018-04-17 14:17:07 zhilian.py[line:96] WARNING -------->15-->02
+2018-04-17 14:17:09 zhilian.py[line:114] WARNING -------->15-->05
+2018-04-17 14:17:09 zhilian.py[line:117] WARNING -------->15-->05-->01a
+2018-04-17 14:17:10 zhilian.py[line:119] WARNING -------->15-->05-->01b
+2018-04-17 14:17:10 zhilian.py[line:125] WARNING -------->15-->07-->finally
+2018-04-17 14:17:10 zhilian.py[line:128] WARNING -------->15-->08
+2018-04-17 14:17:10 zhilian.py[line:221] DEBUG -------->16
+2018-04-17 14:17:10 zhilian.py[line:227] DEBUG -------->17
+2018-04-17 14:17:10 zhilian.py[line:231] INFO --->Now is saving! job_nums=807
+2018-04-17 14:17:10 zhilian.py[line:219] DEBUG -------->15
+2018-04-17 14:17:10 zhilian.py[line:96] WARNING -------->15-->02
+2018-04-17 14:17:12 zhilian.py[line:114] WARNING -------->15-->05
+2018-04-17 14:17:12 zhilian.py[line:117] WARNING -------->15-->05-->01a
+2018-04-17 14:17:12 zhilian.py[line:119] WARNING -------->15-->05-->01b
+2018-04-17 14:17:12 zhilian.py[line:125] WARNING -------->15-->07-->finally
+2018-04-17 14:17:12 zhilian.py[line:128] WARNING -------->15-->08
+2018-04-17 14:17:12 zhilian.py[line:221] DEBUG -------->16
+2018-04-17 14:17:13 zhilian.py[line:227] DEBUG -------->17
+2018-04-17 14:17:13 zhilian.py[line:231] INFO --->Now is saving! job_nums=829
+2018-04-17 14:17:13 zhilian.py[line:219] DEBUG -------->15
+2018-04-17 14:17:13 zhilian.py[line:96] WARNING -------->15-->02
+2018-04-17 14:17:15 zhilian.py[line:114] WARNING -------->15-->05
+2018-04-17 14:17:15 zhilian.py[line:117] WARNING -------->15-->05-->01a
+2018-04-17 14:17:15 zhilian.py[line:119] WARNING -------->15-->05-->01b
+2018-04-17 14:17:15 zhilian.py[line:125] WARNING -------->15-->07-->finally
+2018-04-17 14:17:15 zhilian.py[line:128] WARNING -------->15-->08
+2018-04-17 14:17:15 zhilian.py[line:221] DEBUG -------->16
+2018-04-17 14:17:15 zhilian.py[line:227] DEBUG -------->17
+2018-04-17 14:17:15 zhilian.py[line:231] INFO --->Now is saving! job_nums=508
+2018-04-17 14:17:15 zhilian.py[line:219] DEBUG -------->15
+2018-04-17 14:17:15 zhilian.py[line:96] WARNING -------->15-->02
+2018-04-17 14:17:18 zhilian.py[line:114] WARNING -------->15-->05
+2018-04-17 14:17:18 zhilian.py[line:117] WARNING -------->15-->05-->01a
+2018-04-17 14:17:18 zhilian.py[line:119] WARNING -------->15-->05-->01b
+2018-04-17 14:17:18 zhilian.py[line:125] WARNING -------->15-->07-->finally
+2018-04-17 14:17:18 zhilian.py[line:128] WARNING -------->15-->08
+2018-04-17 14:17:18 zhilian.py[line:221] DEBUG -------->16
+2018-04-17 14:17:18 zhilian.py[line:227] DEBUG -------->17
+2018-04-17 14:17:18 zhilian.py[line:231] INFO --->Now is saving! job_nums=515
+2018-04-17 14:17:18 zhilian.py[line:219] DEBUG -------->15
+2018-04-17 14:17:18 zhilian.py[line:96] WARNING -------->15-->02
+2018-04-17 14:17:20 zhilian.py[line:114] WARNING -------->15-->05
+2018-04-17 14:17:20 zhilian.py[line:117] WARNING -------->15-->05-->01a
+2018-04-17 14:17:21 zhilian.py[line:119] WARNING -------->15-->05-->01b
+2018-04-17 14:17:21 zhilian.py[line:125] WARNING -------->15-->07-->finally
+2018-04-17 14:17:21 zhilian.py[line:128] WARNING -------->15-->08
+2018-04-17 14:17:21 zhilian.py[line:221] DEBUG -------->16
+2018-04-17 14:17:21 zhilian.py[line:227] DEBUG -------->17
+2018-04-17 14:17:21 zhilian.py[line:231] INFO --->Now is saving! job_nums=10582
+2018-04-17 14:17:21 zhilian.py[line:219] DEBUG -------->15
+2018-04-17 14:17:21 zhilian.py[line:96] WARNING -------->15-->02
+2018-04-17 14:17:23 zhilian.py[line:114] WARNING -------->15-->05
+2018-04-17 14:17:23 zhilian.py[line:117] WARNING -------->15-->05-->01a
+2018-04-17 14:17:24 zhilian.py[line:119] WARNING -------->15-->05-->01b
+2018-04-17 14:17:24 zhilian.py[line:125] WARNING -------->15-->07-->finally
+2018-04-17 14:17:24 zhilian.py[line:128] WARNING -------->15-->08
+2018-04-17 14:17:24 zhilian.py[line:221] DEBUG -------->16
+2018-04-17 14:17:24 zhilian.py[line:227] DEBUG -------->17
+2018-04-17 14:17:24 zhilian.py[line:231] INFO --->Now is saving! job_nums=4085
+2018-04-17 14:17:24 zhilian.py[line:219] DEBUG -------->15
+2018-04-17 14:17:24 zhilian.py[line:96] WARNING -------->15-->02
+2018-04-17 14:17:26 zhilian.py[line:114] WARNING -------->15-->05
+2018-04-17 14:17:26 zhilian.py[line:117] WARNING -------->15-->05-->01a
+2018-04-17 14:17:27 zhilian.py[line:119] WARNING -------->15-->05-->01b
+2018-04-17 14:17:27 zhilian.py[line:125] WARNING -------->15-->07-->finally
+2018-04-17 14:17:27 zhilian.py[line:128] WARNING -------->15-->08
+2018-04-17 14:17:27 zhilian.py[line:221] DEBUG -------->16
+2018-04-17 14:17:27 zhilian.py[line:227] DEBUG -------->17
+2018-04-17 14:17:27 zhilian.py[line:231] INFO --->Now is saving! job_nums=2995
+2018-04-17 14:17:27 zhilian.py[line:219] DEBUG -------->15
+2018-04-17 14:17:27 zhilian.py[line:96] WARNING -------->15-->02
+2018-04-17 14:17:29 zhilian.py[line:114] WARNING -------->15-->05
+2018-04-17 14:17:29 zhilian.py[line:117] WARNING -------->15-->05-->01a
+2018-04-17 14:17:30 zhilian.py[line:119] WARNING -------->15-->05-->01b
+2018-04-17 14:17:30 zhilian.py[line:125] WARNING -------->15-->07-->finally
+2018-04-17 14:17:30 zhilian.py[line:128] WARNING -------->15-->08
+2018-04-17 14:17:30 zhilian.py[line:221] DEBUG -------->16
+2018-04-17 14:17:31 zhilian.py[line:227] DEBUG -------->17
+2018-04-17 14:17:31 zhilian.py[line:231] INFO --->Now is saving! job_nums=2096
+2018-04-17 14:17:31 zhilian.py[line:219] DEBUG -------->15
+2018-04-17 14:17:31 zhilian.py[line:96] WARNING -------->15-->02
+2018-04-17 14:17:33 zhilian.py[line:114] WARNING -------->15-->05
+2018-04-17 14:17:33 zhilian.py[line:117] WARNING -------->15-->05-->01a
+2018-04-17 14:17:34 zhilian.py[line:119] WARNING -------->15-->05-->01b
+2018-04-17 14:17:34 zhilian.py[line:125] WARNING -------->15-->07-->finally
+2018-04-17 14:17:34 zhilian.py[line:128] WARNING -------->15-->08
+2018-04-17 14:17:34 zhilian.py[line:221] DEBUG -------->16
+2018-04-17 14:17:34 zhilian.py[line:227] DEBUG -------->17
+2018-04-17 14:17:34 zhilian.py[line:231] INFO --->Now is saving! job_nums=1931
+2018-04-17 14:17:34 zhilian.py[line:219] DEBUG -------->15
+2018-04-17 14:17:34 zhilian.py[line:96] WARNING -------->15-->02
+2018-04-17 14:17:37 zhilian.py[line:114] WARNING -------->15-->05
+2018-04-17 14:17:37 zhilian.py[line:117] WARNING -------->15-->05-->01a
+2018-04-17 14:17:37 zhilian.py[line:119] WARNING -------->15-->05-->01b
+2018-04-17 14:17:37 zhilian.py[line:125] WARNING -------->15-->07-->finally
+2018-04-17 14:17:37 zhilian.py[line:128] WARNING -------->15-->08
+2018-04-17 14:17:37 zhilian.py[line:221] DEBUG -------->16
+2018-04-17 14:17:37 zhilian.py[line:227] DEBUG -------->17
+2018-04-17 14:17:37 zhilian.py[line:231] INFO --->Now is saving! job_nums=20942
+2018-04-17 14:17:37 zhilian.py[line:219] DEBUG -------->15
+2018-04-17 14:17:37 zhilian.py[line:96] WARNING -------->15-->02
+2018-04-17 14:17:40 zhilian.py[line:114] WARNING -------->15-->05
+2018-04-17 14:17:40 zhilian.py[line:117] WARNING -------->15-->05-->01a
+2018-04-17 14:17:40 zhilian.py[line:119] WARNING -------->15-->05-->01b
+2018-04-17 14:17:40 zhilian.py[line:125] WARNING -------->15-->07-->finally
+2018-04-17 14:17:40 zhilian.py[line:128] WARNING -------->15-->08
+2018-04-17 14:17:40 zhilian.py[line:221] DEBUG -------->16
+2018-04-17 14:17:40 zhilian.py[line:227] DEBUG -------->17
+2018-04-17 14:17:40 zhilian.py[line:231] INFO --->Now is saving! job_nums=9967
+2018-04-17 14:17:40 zhilian.py[line:219] DEBUG -------->15
+2018-04-17 14:17:40 zhilian.py[line:96] WARNING -------->15-->02
+2018-04-17 14:17:43 zhilian.py[line:114] WARNING -------->15-->05
+2018-04-17 14:17:43 zhilian.py[line:117] WARNING -------->15-->05-->01a
+2018-04-17 14:17:44 zhilian.py[line:119] WARNING -------->15-->05-->01b
+2018-04-17 14:17:44 zhilian.py[line:125] WARNING -------->15-->07-->finally
+2018-04-17 14:17:44 zhilian.py[line:128] WARNING -------->15-->08
+2018-04-17 14:17:44 zhilian.py[line:221] DEBUG -------->16
+2018-04-17 14:17:44 zhilian.py[line:227] DEBUG -------->17
+2018-04-17 14:17:44 zhilian.py[line:231] INFO --->Now is saving! job_nums=6865
+2018-04-17 14:17:44 zhilian.py[line:219] DEBUG -------->15
+2018-04-17 14:17:44 zhilian.py[line:96] WARNING -------->15-->02
+2018-04-17 14:17:47 zhilian.py[line:114] WARNING -------->15-->05
+2018-04-17 14:17:47 zhilian.py[line:117] WARNING -------->15-->05-->01a
+2018-04-17 14:17:48 zhilian.py[line:119] WARNING -------->15-->05-->01b
+2018-04-17 14:17:48 zhilian.py[line:125] WARNING -------->15-->07-->finally
+2018-04-17 14:17:48 zhilian.py[line:128] WARNING -------->15-->08
+2018-04-17 14:17:48 zhilian.py[line:221] DEBUG -------->16
+2018-04-17 14:17:48 zhilian.py[line:227] DEBUG -------->17
+2018-04-17 14:17:48 zhilian.py[line:231] INFO --->Now is saving! job_nums=5025
+2018-04-17 14:17:48 zhilian.py[line:219] DEBUG -------->15
+2018-04-17 14:17:48 zhilian.py[line:96] WARNING -------->15-->02
+2018-04-17 14:17:50 zhilian.py[line:114] WARNING -------->15-->05
+2018-04-17 14:17:50 zhilian.py[line:117] WARNING -------->15-->05-->01a
+2018-04-17 14:17:51 zhilian.py[line:119] WARNING -------->15-->05-->01b
+2018-04-17 14:17:51 zhilian.py[line:125] WARNING -------->15-->07-->finally
+2018-04-17 14:17:51 zhilian.py[line:128] WARNING -------->15-->08
+2018-04-17 14:17:51 zhilian.py[line:221] DEBUG -------->16
+2018-04-17 14:17:51 zhilian.py[line:227] DEBUG -------->17
+2018-04-17 14:17:51 zhilian.py[line:231] INFO --->Now is saving! job_nums=5032
+2018-04-17 14:17:51 zhilian.py[line:219] DEBUG -------->15
+2018-04-17 14:17:51 zhilian.py[line:96] WARNING -------->15-->02
+2018-04-17 14:17:53 zhilian.py[line:114] WARNING -------->15-->05
+2018-04-17 14:17:53 zhilian.py[line:117] WARNING -------->15-->05-->01a
+2018-04-17 14:17:54 zhilian.py[line:119] WARNING -------->15-->05-->01b
+2018-04-17 14:17:54 zhilian.py[line:125] WARNING -------->15-->07-->finally
+2018-04-17 14:17:54 zhilian.py[line:128] WARNING -------->15-->08
+2018-04-17 14:17:54 zhilian.py[line:221] DEBUG -------->16
+2018-04-17 14:17:54 zhilian.py[line:227] DEBUG -------->17
+2018-04-17 14:17:54 zhilian.py[line:231] INFO --->Now is saving! job_nums=10448
+2018-04-17 14:17:54 zhilian.py[line:219] DEBUG -------->15
+2018-04-17 14:17:54 zhilian.py[line:96] WARNING -------->15-->02
+2018-04-17 14:17:57 zhilian.py[line:114] WARNING -------->15-->05
+2018-04-17 14:17:57 zhilian.py[line:117] WARNING -------->15-->05-->01a
+2018-04-17 14:17:57 zhilian.py[line:119] WARNING -------->15-->05-->01b
+2018-04-17 14:17:57 zhilian.py[line:125] WARNING -------->15-->07-->finally
+2018-04-17 14:17:57 zhilian.py[line:128] WARNING -------->15-->08
+2018-04-17 14:17:57 zhilian.py[line:221] DEBUG -------->16
+2018-04-17 14:17:57 zhilian.py[line:227] DEBUG -------->17
+2018-04-17 14:17:57 zhilian.py[line:231] INFO --->Now is saving! job_nums=5827
+2018-04-17 14:17:57 zhilian.py[line:219] DEBUG -------->15
+2018-04-17 14:17:57 zhilian.py[line:96] WARNING -------->15-->02
+2018-04-17 14:18:00 zhilian.py[line:114] WARNING -------->15-->05
+2018-04-17 14:18:00 zhilian.py[line:117] WARNING -------->15-->05-->01a
+2018-04-17 14:18:01 zhilian.py[line:119] WARNING -------->15-->05-->01b
+2018-04-17 14:18:01 zhilian.py[line:125] WARNING -------->15-->07-->finally
+2018-04-17 14:18:01 zhilian.py[line:128] WARNING -------->15-->08
+2018-04-17 14:18:01 zhilian.py[line:221] DEBUG -------->16
+2018-04-17 14:18:01 zhilian.py[line:227] DEBUG -------->17
+2018-04-17 14:18:01 zhilian.py[line:231] INFO --->Now is saving! job_nums=4157
+2018-04-17 14:18:01 zhilian.py[line:219] DEBUG -------->15
+2018-04-17 14:18:01 zhilian.py[line:96] WARNING -------->15-->02
+2018-04-17 14:18:03 zhilian.py[line:114] WARNING -------->15-->05
+2018-04-17 14:18:03 zhilian.py[line:117] WARNING -------->15-->05-->01a
+2018-04-17 14:18:04 zhilian.py[line:119] WARNING -------->15-->05-->01b
+2018-04-17 14:18:04 zhilian.py[line:125] WARNING -------->15-->07-->finally
+2018-04-17 14:18:04 zhilian.py[line:128] WARNING -------->15-->08
+2018-04-17 14:18:04 zhilian.py[line:221] DEBUG -------->16
+2018-04-17 14:18:04 zhilian.py[line:227] DEBUG -------->17
+2018-04-17 14:18:04 zhilian.py[line:231] INFO --->Now is saving! job_nums=3734
+2018-04-17 14:18:04 zhilian.py[line:219] DEBUG -------->15
+2018-04-17 14:18:04 zhilian.py[line:96] WARNING -------->15-->02
+2018-04-17 14:18:06 zhilian.py[line:114] WARNING -------->15-->05
+2018-04-17 14:18:06 zhilian.py[line:117] WARNING -------->15-->05-->01a
+2018-04-17 14:18:07 zhilian.py[line:119] WARNING -------->15-->05-->01b
+2018-04-17 14:18:07 zhilian.py[line:125] WARNING -------->15-->07-->finally
+2018-04-17 14:18:07 zhilian.py[line:128] WARNING -------->15-->08
+2018-04-17 14:18:07 zhilian.py[line:221] DEBUG -------->16
+2018-04-17 14:18:08 zhilian.py[line:227] DEBUG -------->17
+2018-04-17 14:18:08 zhilian.py[line:231] INFO --->Now is saving! job_nums=2826
+2018-04-17 14:18:08 zhilian.py[line:219] DEBUG -------->15
+2018-04-17 14:18:08 zhilian.py[line:96] WARNING -------->15-->02
+2018-04-17 14:18:10 zhilian.py[line:114] WARNING -------->15-->05
+2018-04-17 14:18:10 zhilian.py[line:117] WARNING -------->15-->05-->01a
+2018-04-17 14:18:11 zhilian.py[line:119] WARNING -------->15-->05-->01b
+2018-04-17 14:18:11 zhilian.py[line:125] WARNING -------->15-->07-->finally
+2018-04-17 14:18:11 zhilian.py[line:128] WARNING -------->15-->08
+2018-04-17 14:18:11 zhilian.py[line:221] DEBUG -------->16
+2018-04-17 14:18:11 zhilian.py[line:227] DEBUG -------->17
+2018-04-17 14:18:11 zhilian.py[line:231] INFO --->Now is saving! job_nums=4936
+2018-04-17 14:18:11 zhilian.py[line:219] DEBUG -------->15
+2018-04-17 14:18:11 zhilian.py[line:96] WARNING -------->15-->02
+2018-04-17 14:18:13 zhilian.py[line:114] WARNING -------->15-->05
+2018-04-17 14:18:13 zhilian.py[line:117] WARNING -------->15-->05-->01a
+2018-04-17 14:18:14 zhilian.py[line:119] WARNING -------->15-->05-->01b
+2018-04-17 14:18:14 zhilian.py[line:125] WARNING -------->15-->07-->finally
+2018-04-17 14:18:14 zhilian.py[line:128] WARNING -------->15-->08
+2018-04-17 14:18:14 zhilian.py[line:221] DEBUG -------->16
+2018-04-17 14:18:14 zhilian.py[line:227] DEBUG -------->17
+2018-04-17 14:18:14 zhilian.py[line:231] INFO --->Now is saving! job_nums=2875
+2018-04-17 14:18:14 zhilian.py[line:219] DEBUG -------->15
+2018-04-17 14:18:14 zhilian.py[line:96] WARNING -------->15-->02
+2018-04-17 14:18:16 zhilian.py[line:114] WARNING -------->15-->05
+2018-04-17 14:18:16 zhilian.py[line:117] WARNING -------->15-->05-->01a
+2018-04-17 14:18:17 zhilian.py[line:119] WARNING -------->15-->05-->01b
+2018-04-17 14:18:17 zhilian.py[line:125] WARNING -------->15-->07-->finally
+2018-04-17 14:18:17 zhilian.py[line:128] WARNING -------->15-->08
+2018-04-17 14:18:17 zhilian.py[line:221] DEBUG -------->16
+2018-04-17 14:18:18 zhilian.py[line:227] DEBUG -------->17
+2018-04-17 14:18:18 zhilian.py[line:231] INFO --->Now is saving! job_nums=2531
+2018-04-17 14:18:18 zhilian.py[line:219] DEBUG -------->15
+2018-04-17 14:18:18 zhilian.py[line:96] WARNING -------->15-->02
+2018-04-17 14:18:20 zhilian.py[line:114] WARNING -------->15-->05
+2018-04-17 14:18:20 zhilian.py[line:117] WARNING -------->15-->05-->01a
+2018-04-17 14:18:21 zhilian.py[line:119] WARNING -------->15-->05-->01b
+2018-04-17 14:18:21 zhilian.py[line:125] WARNING -------->15-->07-->finally
+2018-04-17 14:18:21 zhilian.py[line:128] WARNING -------->15-->08
+2018-04-17 14:18:21 zhilian.py[line:221] DEBUG -------->16
+2018-04-17 14:18:21 zhilian.py[line:227] DEBUG -------->17
+2018-04-17 14:18:21 zhilian.py[line:231] INFO --->Now is saving! job_nums=1501
+2018-04-17 14:18:21 zhilian.py[line:219] DEBUG -------->15
+2018-04-17 14:18:21 zhilian.py[line:96] WARNING -------->15-->02
+2018-04-17 14:18:23 zhilian.py[line:114] WARNING -------->15-->05
+2018-04-17 14:18:23 zhilian.py[line:117] WARNING -------->15-->05-->01a
+2018-04-17 14:18:24 zhilian.py[line:119] WARNING -------->15-->05-->01b
+2018-04-17 14:18:24 zhilian.py[line:125] WARNING -------->15-->07-->finally
+2018-04-17 14:18:24 zhilian.py[line:128] WARNING -------->15-->08
+2018-04-17 14:18:24 zhilian.py[line:221] DEBUG -------->16
+2018-04-17 14:18:24 zhilian.py[line:227] DEBUG -------->17
+2018-04-17 14:18:24 zhilian.py[line:231] INFO --->Now is saving! job_nums=1376
+2018-04-17 14:18:24 zhilian.py[line:219] DEBUG -------->15
+2018-04-17 14:18:24 zhilian.py[line:96] WARNING -------->15-->02
+2018-04-17 14:18:26 zhilian.py[line:114] WARNING -------->15-->05
+2018-04-17 14:18:26 zhilian.py[line:117] WARNING -------->15-->05-->01a
+2018-04-17 14:18:27 zhilian.py[line:119] WARNING -------->15-->05-->01b
+2018-04-17 14:18:27 zhilian.py[line:125] WARNING -------->15-->07-->finally
+2018-04-17 14:18:27 zhilian.py[line:128] WARNING -------->15-->08
+2018-04-17 14:18:27 zhilian.py[line:221] DEBUG -------->16
+2018-04-17 14:18:27 zhilian.py[line:227] DEBUG -------->17
+2018-04-17 14:18:27 zhilian.py[line:231] INFO --->Now is saving! job_nums=4036
+2018-04-17 14:18:27 zhilian.py[line:219] DEBUG -------->15
+2018-04-17 14:18:27 zhilian.py[line:96] WARNING -------->15-->02
+2018-04-17 14:18:30 zhilian.py[line:114] WARNING -------->15-->05
+2018-04-17 14:18:30 zhilian.py[line:117] WARNING -------->15-->05-->01a
+2018-04-17 14:18:30 zhilian.py[line:119] WARNING -------->15-->05-->01b
+2018-04-17 14:18:30 zhilian.py[line:125] WARNING -------->15-->07-->finally
+2018-04-17 14:18:30 zhilian.py[line:128] WARNING -------->15-->08
+2018-04-17 14:18:30 zhilian.py[line:221] DEBUG -------->16
+2018-04-17 14:18:30 zhilian.py[line:227] DEBUG -------->17
+2018-04-17 14:18:30 zhilian.py[line:231] INFO --->Now is saving! job_nums=2043
+2018-04-17 14:18:31 zhilian.py[line:219] DEBUG -------->15
+2018-04-17 14:18:31 zhilian.py[line:96] WARNING -------->15-->02
+2018-04-17 14:18:35 zhilian.py[line:114] WARNING -------->15-->05
+2018-04-17 14:18:35 zhilian.py[line:117] WARNING -------->15-->05-->01a
+2018-04-17 14:18:36 zhilian.py[line:119] WARNING -------->15-->05-->01b
+2018-04-17 14:18:36 zhilian.py[line:125] WARNING -------->15-->07-->finally
+2018-04-17 14:18:36 zhilian.py[line:128] WARNING -------->15-->08
+2018-04-17 14:18:36 zhilian.py[line:221] DEBUG -------->16
+2018-04-17 14:18:36 zhilian.py[line:227] DEBUG -------->17
+2018-04-17 14:18:36 zhilian.py[line:231] INFO --->Now is saving! job_nums=1780
+2018-04-17 14:18:36 zhilian.py[line:219] DEBUG -------->15
+2018-04-17 14:18:36 zhilian.py[line:96] WARNING -------->15-->02
+2018-04-17 14:18:38 zhilian.py[line:114] WARNING -------->15-->05
+2018-04-17 14:18:38 zhilian.py[line:117] WARNING -------->15-->05-->01a
+2018-04-17 14:18:39 zhilian.py[line:119] WARNING -------->15-->05-->01b
+2018-04-17 14:18:39 zhilian.py[line:125] WARNING -------->15-->07-->finally
+2018-04-17 14:18:39 zhilian.py[line:128] WARNING -------->15-->08
+2018-04-17 14:18:39 zhilian.py[line:221] DEBUG -------->16
+2018-04-17 14:18:39 zhilian.py[line:227] DEBUG -------->17
+2018-04-17 14:18:39 zhilian.py[line:231] INFO --->Now is saving! job_nums=1249
+2018-04-17 14:18:39 zhilian.py[line:219] DEBUG -------->15
+2018-04-17 14:18:39 zhilian.py[line:96] WARNING -------->15-->02
+2018-04-17 14:18:41 zhilian.py[line:114] WARNING -------->15-->05
+2018-04-17 14:18:41 zhilian.py[line:117] WARNING -------->15-->05-->01a
+2018-04-17 14:18:42 zhilian.py[line:119] WARNING -------->15-->05-->01b
+2018-04-17 14:18:42 zhilian.py[line:125] WARNING -------->15-->07-->finally
+2018-04-17 14:18:42 zhilian.py[line:128] WARNING -------->15-->08
+2018-04-17 14:18:42 zhilian.py[line:221] DEBUG -------->16
+2018-04-17 14:18:42 zhilian.py[line:227] DEBUG -------->17
+2018-04-17 14:18:42 zhilian.py[line:231] INFO --->Now is saving! job_nums=1102
+2018-04-17 14:18:42 zhilian.py[line:219] DEBUG -------->15
+2018-04-17 14:18:42 zhilian.py[line:96] WARNING -------->15-->02
+2018-04-17 14:18:45 zhilian.py[line:114] WARNING -------->15-->05
+2018-04-17 14:18:45 zhilian.py[line:117] WARNING -------->15-->05-->01a
+2018-04-17 14:18:45 zhilian.py[line:119] WARNING -------->15-->05-->01b
+2018-04-17 14:18:45 zhilian.py[line:125] WARNING -------->15-->07-->finally
+2018-04-17 14:18:45 zhilian.py[line:128] WARNING -------->15-->08
+2018-04-17 14:18:45 zhilian.py[line:221] DEBUG -------->16
+2018-04-17 14:18:46 zhilian.py[line:227] DEBUG -------->17
+2018-04-17 14:18:46 zhilian.py[line:231] INFO --->Now is saving! job_nums=9192
+2018-04-17 14:18:46 zhilian.py[line:219] DEBUG -------->15
+2018-04-17 14:18:46 zhilian.py[line:96] WARNING -------->15-->02
+2018-04-17 14:18:48 zhilian.py[line:114] WARNING -------->15-->05
+2018-04-17 14:18:48 zhilian.py[line:117] WARNING -------->15-->05-->01a
+2018-04-17 14:18:49 zhilian.py[line:119] WARNING -------->15-->05-->01b
+2018-04-17 14:18:49 zhilian.py[line:125] WARNING -------->15-->07-->finally
+2018-04-17 14:18:49 zhilian.py[line:128] WARNING -------->15-->08
+2018-04-17 14:18:49 zhilian.py[line:221] DEBUG -------->16
+2018-04-17 14:18:49 zhilian.py[line:227] DEBUG -------->17
+2018-04-17 14:18:49 zhilian.py[line:231] INFO --->Now is saving! job_nums=3867
+2018-04-17 14:18:49 zhilian.py[line:219] DEBUG -------->15
+2018-04-17 14:18:49 zhilian.py[line:96] WARNING -------->15-->02
+2018-04-17 14:18:51 zhilian.py[line:114] WARNING -------->15-->05
+2018-04-17 14:18:51 zhilian.py[line:117] WARNING -------->15-->05-->01a
+2018-04-17 14:18:52 zhilian.py[line:119] WARNING -------->15-->05-->01b
+2018-04-17 14:18:52 zhilian.py[line:125] WARNING -------->15-->07-->finally
+2018-04-17 14:18:52 zhilian.py[line:128] WARNING -------->15-->08
+2018-04-17 14:18:52 zhilian.py[line:221] DEBUG -------->16
+2018-04-17 14:18:52 zhilian.py[line:227] DEBUG -------->17
+2018-04-17 14:18:52 zhilian.py[line:231] INFO --->Now is saving! job_nums=2795
+2018-04-17 14:18:52 zhilian.py[line:219] DEBUG -------->15
+2018-04-17 14:18:52 zhilian.py[line:96] WARNING -------->15-->02
+2018-04-17 14:18:54 zhilian.py[line:114] WARNING -------->15-->05
+2018-04-17 14:18:54 zhilian.py[line:117] WARNING -------->15-->05-->01a
+2018-04-17 14:18:55 zhilian.py[line:119] WARNING -------->15-->05-->01b
+2018-04-17 14:18:55 zhilian.py[line:125] WARNING -------->15-->07-->finally
+2018-04-17 14:18:55 zhilian.py[line:128] WARNING -------->15-->08
+2018-04-17 14:18:55 zhilian.py[line:221] DEBUG -------->16
+2018-04-17 14:18:55 zhilian.py[line:227] DEBUG -------->17
+2018-04-17 14:18:55 zhilian.py[line:231] INFO --->Now is saving! job_nums=1501
+2018-04-17 14:18:55 zhilian.py[line:219] DEBUG -------->15
+2018-04-17 14:18:55 zhilian.py[line:96] WARNING -------->15-->02
+2018-04-17 14:18:58 zhilian.py[line:114] WARNING -------->15-->05
+2018-04-17 14:18:58 zhilian.py[line:117] WARNING -------->15-->05-->01a
+2018-04-17 14:18:59 zhilian.py[line:119] WARNING -------->15-->05-->01b
+2018-04-17 14:18:59 zhilian.py[line:125] WARNING -------->15-->07-->finally
+2018-04-17 14:18:59 zhilian.py[line:128] WARNING -------->15-->08
+2018-04-17 14:18:59 zhilian.py[line:221] DEBUG -------->16
+2018-04-17 14:18:59 zhilian.py[line:227] DEBUG -------->17
+2018-04-17 14:18:59 zhilian.py[line:231] INFO --->Now is saving! job_nums=1714
+2018-04-17 14:18:59 zhilian.py[line:219] DEBUG -------->15
+2018-04-17 14:18:59 zhilian.py[line:96] WARNING -------->15-->02
+2018-04-17 14:19:01 zhilian.py[line:114] WARNING -------->15-->05
+2018-04-17 14:19:01 zhilian.py[line:117] WARNING -------->15-->05-->01a
+2018-04-17 14:19:02 zhilian.py[line:119] WARNING -------->15-->05-->01b
+2018-04-17 14:19:02 zhilian.py[line:125] WARNING -------->15-->07-->finally
+2018-04-17 14:19:02 zhilian.py[line:128] WARNING -------->15-->08
+2018-04-17 14:19:02 zhilian.py[line:221] DEBUG -------->16
+2018-04-17 14:19:03 zhilian.py[line:227] DEBUG -------->17
+2018-04-17 14:19:03 zhilian.py[line:231] INFO --->Now is saving! job_nums=4909
+2018-04-17 14:19:03 zhilian.py[line:219] DEBUG -------->15
+2018-04-17 14:19:03 zhilian.py[line:96] WARNING -------->15-->02
+2018-04-17 14:19:05 zhilian.py[line:114] WARNING -------->15-->05
+2018-04-17 14:19:05 zhilian.py[line:117] WARNING -------->15-->05-->01a
+2018-04-17 14:19:06 zhilian.py[line:119] WARNING -------->15-->05-->01b
+2018-04-17 14:19:06 zhilian.py[line:125] WARNING -------->15-->07-->finally
+2018-04-17 14:19:06 zhilian.py[line:128] WARNING -------->15-->08
+2018-04-17 14:19:06 zhilian.py[line:221] DEBUG -------->16
+2018-04-17 14:19:06 zhilian.py[line:227] DEBUG -------->17
+2018-04-17 14:19:06 zhilian.py[line:231] INFO --->Now is saving! job_nums=2535
+2018-04-17 14:19:06 zhilian.py[line:219] DEBUG -------->15
+2018-04-17 14:19:06 zhilian.py[line:96] WARNING -------->15-->02
+2018-04-17 14:19:08 zhilian.py[line:114] WARNING -------->15-->05
+2018-04-17 14:19:08 zhilian.py[line:117] WARNING -------->15-->05-->01a
+2018-04-17 14:19:09 zhilian.py[line:119] WARNING -------->15-->05-->01b
+2018-04-17 14:19:09 zhilian.py[line:125] WARNING -------->15-->07-->finally
+2018-04-17 14:19:09 zhilian.py[line:128] WARNING -------->15-->08
+2018-04-17 14:19:09 zhilian.py[line:221] DEBUG -------->16
+2018-04-17 14:19:09 zhilian.py[line:227] DEBUG -------->17
+2018-04-17 14:19:09 zhilian.py[line:231] INFO --->Now is saving! job_nums=2040
+2018-04-17 14:19:09 zhilian.py[line:219] DEBUG -------->15
+2018-04-17 14:19:09 zhilian.py[line:96] WARNING -------->15-->02
+2018-04-17 14:19:12 zhilian.py[line:114] WARNING -------->15-->05
+2018-04-17 14:19:12 zhilian.py[line:117] WARNING -------->15-->05-->01a
+2018-04-17 14:19:12 zhilian.py[line:119] WARNING -------->15-->05-->01b
+2018-04-17 14:19:12 zhilian.py[line:125] WARNING -------->15-->07-->finally
+2018-04-17 14:19:12 zhilian.py[line:128] WARNING -------->15-->08
+2018-04-17 14:19:12 zhilian.py[line:221] DEBUG -------->16
+2018-04-17 14:19:13 zhilian.py[line:227] DEBUG -------->17
+2018-04-17 14:19:13 zhilian.py[line:231] INFO --->Now is saving! job_nums=1795
+2018-04-17 14:19:13 zhilian.py[line:219] DEBUG -------->15
+2018-04-17 14:19:13 zhilian.py[line:96] WARNING -------->15-->02
+2018-04-17 14:19:15 zhilian.py[line:114] WARNING -------->15-->05
+2018-04-17 14:19:15 zhilian.py[line:117] WARNING -------->15-->05-->01a
+2018-04-17 14:19:16 zhilian.py[line:119] WARNING -------->15-->05-->01b
+2018-04-17 14:19:16 zhilian.py[line:125] WARNING -------->15-->07-->finally
+2018-04-17 14:19:16 zhilian.py[line:128] WARNING -------->15-->08
+2018-04-17 14:19:16 zhilian.py[line:221] DEBUG -------->16
+2018-04-17 14:19:16 zhilian.py[line:227] DEBUG -------->17
+2018-04-17 14:19:16 zhilian.py[line:231] INFO --->Now is saving! job_nums=1213
+2018-04-17 14:19:16 zhilian.py[line:219] DEBUG -------->15
+2018-04-17 14:19:16 zhilian.py[line:96] WARNING -------->15-->02
+2018-04-17 14:19:18 zhilian.py[line:114] WARNING -------->15-->05
+2018-04-17 14:19:18 zhilian.py[line:117] WARNING -------->15-->05-->01a
+2018-04-17 14:19:19 zhilian.py[line:119] WARNING -------->15-->05-->01b
+2018-04-17 14:19:19 zhilian.py[line:125] WARNING -------->15-->07-->finally
+2018-04-17 14:19:19 zhilian.py[line:128] WARNING -------->15-->08
+2018-04-17 14:19:19 zhilian.py[line:221] DEBUG -------->16
+2018-04-17 14:19:19 zhilian.py[line:227] DEBUG -------->17
+2018-04-17 14:19:19 zhilian.py[line:231] INFO --->Now is saving! job_nums=541
+2018-04-17 14:19:19 zhilian.py[line:219] DEBUG -------->15
+2018-04-17 14:19:19 zhilian.py[line:96] WARNING -------->15-->02
+2018-04-17 14:19:22 zhilian.py[line:114] WARNING -------->15-->05
+2018-04-17 14:19:22 zhilian.py[line:117] WARNING -------->15-->05-->01a
+2018-04-17 14:19:22 zhilian.py[line:119] WARNING -------->15-->05-->01b
+2018-04-17 14:19:22 zhilian.py[line:125] WARNING -------->15-->07-->finally
+2018-04-17 14:19:22 zhilian.py[line:128] WARNING -------->15-->08
+2018-04-17 14:19:22 zhilian.py[line:221] DEBUG -------->16
+2018-04-17 14:19:22 zhilian.py[line:227] DEBUG -------->17
+2018-04-17 14:19:22 zhilian.py[line:231] INFO --->Now is saving! job_nums=178
+2018-04-17 14:19:23 zhilian.py[line:219] DEBUG -------->15
+2018-04-17 14:19:23 zhilian.py[line:96] WARNING -------->15-->02
+2018-04-17 14:19:25 zhilian.py[line:114] WARNING -------->15-->05
+2018-04-17 14:19:25 zhilian.py[line:117] WARNING -------->15-->05-->01a
+2018-04-17 14:19:26 zhilian.py[line:119] WARNING -------->15-->05-->01b
+2018-04-17 14:19:26 zhilian.py[line:125] WARNING -------->15-->07-->finally
+2018-04-17 14:19:26 zhilian.py[line:128] WARNING -------->15-->08
+2018-04-17 14:19:26 zhilian.py[line:221] DEBUG -------->16
+2018-04-17 14:19:26 zhilian.py[line:227] DEBUG -------->17
+2018-04-17 14:19:26 zhilian.py[line:231] INFO --->Now is saving! job_nums=129
+2018-04-17 14:19:26 zhilian.py[line:219] DEBUG -------->15
+2018-04-17 14:19:26 zhilian.py[line:96] WARNING -------->15-->02
+2018-04-17 14:19:28 zhilian.py[line:114] WARNING -------->15-->05
+2018-04-17 14:19:28 zhilian.py[line:117] WARNING -------->15-->05-->01a
+2018-04-17 14:19:29 zhilian.py[line:119] WARNING -------->15-->05-->01b
+2018-04-17 14:19:29 zhilian.py[line:125] WARNING -------->15-->07-->finally
+2018-04-17 14:19:29 zhilian.py[line:128] WARNING -------->15-->08
+2018-04-17 14:19:29 zhilian.py[line:221] DEBUG -------->16
+2018-04-17 14:19:29 zhilian.py[line:227] DEBUG -------->17
+2018-04-17 14:19:29 zhilian.py[line:231] INFO --->Now is saving! job_nums=48
+2018-04-17 14:19:29 zhilian.py[line:219] DEBUG -------->15
+2018-04-17 14:19:29 zhilian.py[line:96] WARNING -------->15-->02
+2018-04-17 14:19:31 zhilian.py[line:114] WARNING -------->15-->05
+2018-04-17 14:19:31 zhilian.py[line:117] WARNING -------->15-->05-->01a
+2018-04-17 14:19:32 zhilian.py[line:119] WARNING -------->15-->05-->01b
+2018-04-17 14:19:32 zhilian.py[line:125] WARNING -------->15-->07-->finally
+2018-04-17 14:19:32 zhilian.py[line:128] WARNING -------->15-->08
+2018-04-17 14:19:32 zhilian.py[line:221] DEBUG -------->16
+2018-04-17 14:19:33 zhilian.py[line:227] DEBUG -------->17
+2018-04-17 14:19:33 zhilian.py[line:231] INFO --->Now is saving! job_nums=98
+2018-04-17 14:19:33 zhilian.py[line:277] INFO ============>end!
