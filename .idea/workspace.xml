@@ -2,17 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13afface-d663-4046-910b-99067c5cdae8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Study/oldboy/data/mysql.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Study/oldboy/moudle_configParser.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spider/zhaopin/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Spider/zhaopin/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/login/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Spider/login/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/login/csdn.py" beforeDir="false" afterPath="$PROJECT_DIR$/Spider/login/csdn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/login/douban.py" beforeDir="false" afterPath="$PROJECT_DIR$/Spider/login/douban.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/login/niit.py" beforeDir="false" afterPath="$PROJECT_DIR$/Spider/login/niit.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/login/zhihu.py" beforeDir="false" afterPath="$PROJECT_DIR$/Spider/login/zhihu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/oldboy/moudle_logging.py" beforeDir="false" afterPath="$PROJECT_DIR$/Study/oldboy/moudle_logging.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/captcha/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/captcha/cfg.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/captcha/img_tools.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/captcha/imgs/6937.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/captcha/predict.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/captcha/svm_features.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/captcha/svm_train.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/data.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/test.txt" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,16 +27,18 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Python$51jobcsv.coverage" NAME="51jobcsv Coverage Results" MODIFIED="1523956449896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spider/zhaopin" />
     <SUITE FILE_PATH="coverage/Python$zhilian.coverage" NAME="zhilian Coverage Results" MODIFIED="1523945668377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spider/zhaopin" />
+    <SUITE FILE_PATH="coverage/Python$moudle_logging__1_.coverage" NAME="moudle_logging (1) Coverage Results" MODIFIED="1524102781218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study/oldboy" />
     <SUITE FILE_PATH="coverage/Python$moudle_os.coverage" NAME="moudle_os Coverage Results" MODIFIED="1523522876190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study/oldboy" />
     <SUITE FILE_PATH="coverage/Python$moudle_json.coverage" NAME="moudle_json Coverage Results" MODIFIED="1523599179237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study/oldboy" />
-    <SUITE FILE_PATH="coverage/Python$img_tools.coverage" NAME="img_tools Coverage Results" MODIFIED="1523978843672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/captcha" />
-    <SUITE FILE_PATH="coverage/Python$moudle_configParser.coverage" NAME="moudle_configParser Coverage Results" MODIFIED="1524067174093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study/oldboy" />
+    <SUITE FILE_PATH="coverage/Python$img_tools.coverage" NAME="img_tools Coverage Results" MODIFIED="1524101800335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Play/captcha" />
+    <SUITE FILE_PATH="coverage/Python$moudle_configParser.coverage" NAME="moudle_configParser Coverage Results" MODIFIED="1524067812696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study/oldboy" />
+    <SUITE FILE_PATH="coverage/Python$moudle_logging.coverage" NAME="moudle_logging Coverage Results" MODIFIED="1524068116708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study/oldboy/data" />
     <SUITE FILE_PATH="coverage/Python$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1523953309016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spider/zhaopin" />
     <SUITE FILE_PATH="coverage/Python$51job3.coverage" NAME="51job3 Coverage Results" MODIFIED="1523957487868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spider/zhaopin" />
     <SUITE FILE_PATH="coverage/Python$test.coverage" NAME="test Coverage Results" MODIFIED="1524042147587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spider/zhaopin" />
     <SUITE FILE_PATH="coverage/Python$predict.coverage" NAME="predict Coverage Results" MODIFIED="1523977637430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/captcha" />
     <SUITE FILE_PATH="coverage/Python$moudle_sys.coverage" NAME="moudle_sys Coverage Results" MODIFIED="1523587140649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study/oldboy" />
-    <SUITE FILE_PATH="coverage/Python$svm_train.coverage" NAME="svm_train Coverage Results" MODIFIED="1523975036338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/captcha" />
+    <SUITE FILE_PATH="coverage/Python$svm_train.coverage" NAME="svm_train Coverage Results" MODIFIED="1524101791771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Play/captcha" />
     <SUITE FILE_PATH="coverage/Python$zhaopin.coverage" NAME="zhaopin Coverage Results" MODIFIED="1523946584354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spider/zhaopin" />
     <SUITE FILE_PATH="coverage/Python$svm_features.coverage" NAME="svm_features Coverage Results" MODIFIED="1523974944326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/captcha" />
     <SUITE FILE_PATH="coverage/Python$num2english.coverage" NAME="num2english Coverage Results" MODIFIED="1524046746726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spider/test" />
@@ -59,11 +63,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="moudle_configParser.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Study/oldboy/moudle_configParser.py">
+      <file leaf-file-name="moudle_logging.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Study/oldboy/moudle_logging.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="66" column="76" selection-start-line="66" selection-start-column="76" selection-end-line="66" selection-end-column="76" />
+            <state relative-caret-position="34">
+              <caret line="2" column="69" selection-start-line="2" selection-start-column="69" selection-end-line="2" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -90,6 +94,9 @@
       <find>img_path</find>
       <find>get_clear_bin_image</find>
       <find>bin_clear_folder</find>
+      <find>save_train_txt</find>
+      <find>crack_captcha</find>
+      <find>demo_handle_save_bin_clear_pic</find>
     </findStrings>
     <replaceStrings>
       <replace>username</replace>
@@ -103,14 +110,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Study/oldboy/generator.py" />
-        <option value="$PROJECT_DIR$/Study/oldboy/test" />
-        <option value="$PROJECT_DIR$/Study/oldboy/decorator.py" />
-        <option value="$PROJECT_DIR$/Study/oldboy/moudle_time.py" />
-        <option value="$PROJECT_DIR$/Study/oldboy/moudle_random.py" />
-        <option value="$PROJECT_DIR$/Study/oldboy/moudle_os.py" />
-        <option value="$PROJECT_DIR$/Study/oldboy/moudle_sys.py" />
-        <option value="$PROJECT_DIR$/Study/oldboy/moudle_json.py" />
         <option value="$PROJECT_DIR$/captcha-svm-master/svmutil.py" />
         <option value="$PROJECT_DIR$/captcha-svm-master/lib/svmutil.py" />
         <option value="$PROJECT_DIR$/captcha-svm-master/svm_train.py" />
@@ -154,6 +153,14 @@
         <option value="$PROJECT_DIR$/Study/oldboy/data/mysql.conf" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Study/oldboy/moudle_configParser.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/Study/oldboy/data/moudle_logging.py" />
+        <option value="$PROJECT_DIR$/Study/oldboy/data/logger.log" />
+        <option value="$PROJECT_DIR$/Play/captcha/cfg.py" />
+        <option value="$PROJECT_DIR$/Play/captcha/predict.py" />
+        <option value="$PROJECT_DIR$/Play/captcha/svm_features.py" />
+        <option value="$PROJECT_DIR$/Play/captcha/img_tools.py" />
+        <option value="$PROJECT_DIR$/Study/oldboy/moudle_logging.py" />
       </list>
     </option>
   </component>
@@ -183,8 +190,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -208,32 +213,12 @@
               <item name="Study" type="462c0819:PsiDirectoryNode" />
               <item name="oldboy" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python" type="462c0819:PsiDirectoryNode" />
-              <item name="Study" type="462c0819:PsiDirectoryNode" />
-              <item name="oldboy" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-            </path>
-            <path>
-              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
-            </path>
-            <path>
-              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
-              <item name="com.intellij.database" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -241,7 +226,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SearchEverywhereHistoryKey" value="cut_all_pic&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="add_unversioned_files" value="$PROJECT_DIR$/Study/oldboy/data/mysql.conf" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/Study/oldboy/data/logger.log&#10;D:/01-Work/Python/Study/oldboy/data/mysql.conf&#10;D:/01-Work/Python/Play/captcha/data/demo-6937/cut-3.png" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
@@ -259,11 +244,11 @@
       <recent name="$PROJECT_DIR$/Study" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\01-Work\Python\Play" />
+      <recent name="D:\01-Work\Python\Study\oldboy" />
       <recent name="D:\01-Work\Python\Spider" />
       <recent name="D:\01-Work\Python\Spider\douban" />
       <recent name="D:\01-Work\Python\Spider\zhaopin" />
-      <recent name="D:\01-Work\Python\captcha" />
-      <recent name="D:\01-Work\Python\Study\oldboy\data" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -278,7 +263,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.moudle_configParser">
+  <component name="RunManager" selected="Python.moudle_logging (1)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -403,19 +388,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="img_tools" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="01-Python" />
+      <module name="Play" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/captcha" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Play/captcha" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/captcha/img_tools.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Play/captcha/img_tools.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -440,58 +425,58 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="num2english" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Spider" />
+    <configuration name="moudle_logging (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Spider/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Study/oldboy" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Spider/test/num2english.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Study/oldboy/moudle_logging.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="predict" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="01-Python" />
+    <configuration name="moudle_logging" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/captcha" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Study/oldboy/data" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/captcha/predict.py" />
+      <option name="SCRIPT_NAME" value="D:\01-Work\Python\Study\oldboy\moudle_logging.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Spider" />
+    <configuration name="svm_train" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Play" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Spider/zhaopin" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Play/captcha" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Spider/zhaopin/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Play/captcha/svm_train.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -824,19 +809,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
-      <item itemvalue="Python.img_tools" />
-      <item itemvalue="Python.predict" />
-      <item itemvalue="Python.test" />
-      <item itemvalue="Python.num2english" />
       <item itemvalue="Python.moudle_configParser" />
+      <item itemvalue="Python.moudle_logging" />
+      <item itemvalue="Python.moudle_logging (1)" />
+      <item itemvalue="Python.img_tools" />
+      <item itemvalue="Python.svm_train" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.moudle_configParser" />
-        <item itemvalue="Python.num2english" />
-        <item itemvalue="Python.test" />
+        <item itemvalue="Python.moudle_logging (1)" />
         <item itemvalue="Python.img_tools" />
-        <item itemvalue="Python.predict" />
+        <item itemvalue="Python.svm_train" />
+        <item itemvalue="Python.moudle_logging" />
+        <item itemvalue="Python.moudle_configParser" />
       </list>
     </recent_temporary>
   </component>
@@ -941,7 +926,9 @@
       <workItem from="1524062040487" duration="681000" />
       <workItem from="1524062768690" duration="540000" />
       <workItem from="1524063362590" duration="1092000" />
-      <workItem from="1524064520283" duration="2761000" />
+      <workItem from="1524064520283" duration="3316000" />
+      <workItem from="1524067914854" duration="734000" />
+      <workItem from="1524100639479" duration="2203000" />
     </task>
     <task id="LOCAL-00001" summary="runoob">
       <created>1491462759698</created>
@@ -975,7 +962,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="344011000" />
+    <option name="totallyTimeSpent" value="347503000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -995,15 +982,15 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.20121029" side_tool="true" visible="true" weight="0.2" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.204236" side_tool="true" visible="true" weight="0.2" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.19591528" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.494705" weight="0.1904762" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.79878974" visible="true" weight="0.2" />
-      <window_info anchor="bottom" x="0" y="0" width="1368" height="832" id="Terminal" order="7" sideWeight="0.41527987" weight="0.19863945" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.79576397" visible="true" weight="0.2" />
+      <window_info anchor="bottom" x="0" y="0" width="1368" height="832" id="Terminal" order="7" sideWeight="0.4130106" weight="0.19863945" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49719775" visible="true" weight="0.18910742" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49719775" visible="true" weight="0.19515885" />
       <window_info anchor="right" id="Database" order="3" weight="0.09228442" />
       <window_info anchor="right" id="SciView" order="4" weight="0.18910742" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -1024,7 +1011,7 @@
       <window_info anchor="bottom" id="CheckStyle" order="7" weight="0.21837088" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Data View" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.47039473" weight="0.26400515" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4689864" weight="0.26394558" />
       <window_info anchor="right" id="Coverage" order="3" side_tool="true" />
     </layout>
   </component>
@@ -1098,84 +1085,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Study/oldboy/fun.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Study/oldboy/fun.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="11" lean-forward="true" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/captcha/img_tools.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4420">
-          <caret line="260" column="7" selection-start-line="260" selection-start-column="7" selection-end-line="260" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/captcha/img_tools.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4420">
-          <caret line="260" column="7" lean-forward="true" selection-start-line="260" selection-start-column="7" selection-end-line="260" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spider/test/num2english.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Study/oldboy/moudle_json.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="628">
-          <caret line="119" selection-start-line="119" selection-end-line="119" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/captcha-svm-master/svmutil.py" />
-    <entry file="file://$PROJECT_DIR$/captcha-svm-master/svm.py" />
-    <entry file="file://$PROJECT_DIR$/captcha-svm-master/lib/svmutil.py" />
-    <entry file="file://$PROJECT_DIR$/Spider/zhaopin/jobs.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1170" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spider/zhaopin/places_name.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spider/zhaopin/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spider/zhaopin/zhilian.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="48" column="17" lean-forward="true" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spider/zhaopin/zhilianzhaopin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-632">
-          <caret line="23" column="56" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Spider/zhaopin/Spider.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -1316,27 +1225,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/captcha-svm-master/data/svm_train/last_test_pix_xy_8.txt" />
     <entry file="file://$PROJECT_DIR$/captcha-svm-master/data/svm_train/svm_model_file" />
-    <entry file="file://$PROJECT_DIR$/captcha/svm_train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="70" selection-start-line="4" selection-start-column="70" selection-end-line="4" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/captcha/predict.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/captcha/svm_features.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Spider/qiushibaike/qsbk.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-816" />
@@ -1353,20 +1241,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/captcha/cfg.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/captcha/img_tools.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -1412,10 +1286,114 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="102">
+            <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/oldboy/data/test" />
     <entry file="file://$PROJECT_DIR$/Study/oldboy/moudle_configParser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
+        <state relative-caret-position="1122">
           <caret line="66" column="76" selection-start-line="66" selection-start-column="76" selection-end-line="66" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/oldboy/data/logger.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="30" lean-forward="true" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/test.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/data.pkl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Play/captcha/cfg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Play/captcha/data/cut/6937-0.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Play/captcha/data/cut/6937-1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Play/captcha/data/cut/6937-2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Play/captcha/data/cut/6937-3.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Play/captcha/data/demo-6937/cut-0.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Play/captcha/data/demo-6937/cut-1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Play/captcha/data/demo-6937/cut-2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Play/captcha/data/demo-6937/cut-3.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Play/captcha/predict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="717">
+          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Play/captcha/svm_features.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="73" column="8" lean-forward="true" selection-start-line="73" selection-start-column="8" selection-end-line="73" selection-end-column="8" />
+          <folding>
+            <element signature="e#36#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Play/captcha/svm_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#62#132#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Play/captcha/img_tools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="294" column="7" lean-forward="true" selection-start-line="294" selection-start-column="7" selection-end-line="294" selection-end-column="7" />
+          <folding>
+            <element signature="e#17#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/oldboy/moudle_logging.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="69" selection-start-line="2" selection-start-column="69" selection-end-line="2" selection-end-column="69" />
         </state>
       </provider>
     </entry>

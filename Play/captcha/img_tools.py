@@ -5,6 +5,7 @@ import os
 from PIL import Image
 from captcha.cfg import img_path, bin_clear_folder, origin_pic_folder, cut_pic_folder, data_root
 from os.path import join
+from captcha.svm_features import get_svm_test_txt,get_svm_train_txt
 
 
 def get_bin_table(threshold=140):
@@ -217,6 +218,7 @@ def save_crop_imgs(bin_clear_image_path, child_img_list):
     # file_ext = full_file_name_split[1]
 
     i = 0
+    print(cut_pic_folder)
     for child_img in child_img_list:
         cut_img_file_name = file_name + '-' + ("%s.png" % i)
         child_img.save(join(cut_pic_folder, cut_img_file_name))
@@ -262,7 +264,7 @@ def demo_cut_pic():
     做实验研究时的演示代码
     :return:
     """
-    img_path = 'data/demo-6937/ocr-simple-char-captcha-bin-clear-6937.png'
+    img_path = 'imgs/6937.png'
     img = Image.open(img_path)
     cut_save = data_root + '/demo-6937'
     child_img_list = get_crop_imgs(img)
@@ -305,11 +307,12 @@ def demo_handle_save_bin_clear_pic(image):
 if __name__ == "__main__":
     print(get_bin_table())
     batch_cut_images()
-    batch_get_all_bin_clear()  # 获取所有的二值化的初步去噪的图片
-    #demo_cut_pic()  # 切割图片成单个字
+    # batch_get_all_bin_clear()  # 获取所有的二值化的初步去噪的图片
+    # demo_cut_pic()  # 切割图片成单个字
     # save_train_txt()
     # save_test_txt()
     # crack_captcha()
-    # img = Image.open(img_path)
+    img = Image.open("imgs/6937.png")
     # handle_save_bin_clear_pic(img)
     # demo_cut_pic()
+    demo_handle_save_bin_clear_pic(img)

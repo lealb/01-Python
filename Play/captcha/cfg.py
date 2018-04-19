@@ -10,7 +10,7 @@ home_root = '/home/harmo'  # 用户的home目录
 data_root='data'
 origin_pic_folder = 'data/origin' # 原始图像目录
 bin_clear_folder = 'imgs'  # "原始图像 -> 二值 -> 除噪声" 之后的图片文件目录
-cut_pic_folder = join(data_root, 'cut_pic')  # 1张4位验证字符图片 -> 4张单字符图片。然后再将相应图片拖动到指定目录，完全数据标记工作
+cut_pic_folder = join(data_root, 'cut')  # 1张4位验证字符图片 -> 4张单字符图片。然后再将相应图片拖动到指定目录，完全数据标记工作
 
 test_cut_pic_folder = join(data_root, 'cut_test')  # 一组全为 8 的图片集，用于做简单的模型验证测试
 

@@ -54,10 +54,10 @@ def crack_captcha():
         p_label, p_acc, p_val = svm_predict(yt, xt, model)
         img_ocr_name += ('%d' % p_label[0])  # 将识别结果合并起来
 
-    #uuid_tag = get_uuid1_key()  # 生成一组随机的uuid的字符串（开发人员自己写，比较好实现）
+    # uuid_tag = get_uuid1_key()  # 生成一组随机的uuid的字符串（开发人员自己写，比较好实现）
 
     img_save_folder = data_root + '/crack_img_res'
-   # img.save(img_save_folder + '/' + img_ocr_name + '__' + uuid_tag + '.png')
+    # img.save(img_save_folder + '/' + img_ocr_name + '__' + uuid_tag + '.png')
     # 例如：__0067__77b10a28f73311e68abef0def1a6bbc8.png
     f.close()
 
