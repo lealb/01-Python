@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 # Author:leali
 # Description: 序列化与反序列化,还可自定义对象进行处理，未完成
+# 通常方法如果不序列化可以采用str/eval进行处理
 # Version:v1.0
 # Date:4/13/2018-10:35 AM
 import json
