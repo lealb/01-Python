@@ -1,5 +1,5 @@
 # Object Oriented Programming
-from tclass import person, student
+from oldboy.tclass import person, student
 
 if __name__ == "__main__":
     p1 = person.Person("leal", "M", 23)

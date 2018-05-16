@@ -3,19 +3,25 @@
 # Description: 
 # Version:v1.0
 # Date:4/19/2018-11:11 AM
-from urllib.request import urlopen
-from xml.etree.ElementTree import parse
+import xml.etree.ElementTree as ET
+
+
+def read_xml(file):
+    """
+    可通过root[0][1].text获得没有属性的text
+    :param file:
+    :return:
+    """
+    tree = ET.parse(file)
+    root = tree.getroot()
+    # print("root:" % (root.tag, root.attrib))
+    print(root.tag, ":", root.attrib)
+    for child in root:
+        print(child.tag, ":", child.attrib)
+        for i in child:
+            print(i.tag, ":", i.attrib)
+
 
 if __name__ == "__main__":
-    # Download the RSS feed and parse it
-    u = urlopen('http://planet.python.org/rss20.xml')
-    doc = parse(u)
-    # Extract and output tags of interest
-    for item in doc.iterfind('channel/item'):
-        title = item.findtext('title')
-        date = item.findtext('pubDate')
-        link = item.findtext('link')
-
-        print(title)
-        print(date)
-        print(link)
+    file = "data/country.xml"
+    read_xml(file)

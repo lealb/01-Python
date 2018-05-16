@@ -1,4 +1,4 @@
-from tclass import person
+from oldboy.tclass import person
 
 
 class Student(person.Person):
