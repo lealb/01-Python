@@ -19,4 +19,5 @@ class Count(object):
             return self.db.count(_sql, *_params)
         else:
             _sql = "".join(["SELECT COUNT(1) FROM ", self.tablename])
+            print(_sql)
             return self.db.count(_sql)

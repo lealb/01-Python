@@ -39,8 +39,8 @@ class Connect(object):
         self._db_args = args
         try:
             self.reconnect()
-        except:
-            logging.error("Cannot connect to MySQL on %s", self.host,
+        except Exception as Error:
+            logging.error("Cannot connect to MySQL on %s:%s", self.host,Error,
                           exc_info=True)
 
     def __del__(self):

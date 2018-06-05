@@ -17,7 +17,7 @@ class Update:
 
     def __call__(self, *fields):
         if len(fields) < 1:
-            print(OperationalError , "Must have unless 1 field to update")
+            print(OperationalError, "Must have unless 1 field to update")
             # raise
         _params = []
         _cols = []
