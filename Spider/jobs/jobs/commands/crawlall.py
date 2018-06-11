@@ -13,6 +13,6 @@ class Command(ScrapyCommand):
     def run(self, args, opts):
         spider_list = self.crawler_process.spiders.list()
         for name in spider_list:
-            print("*********"+name+"************")
+            print("*********" + name + "************")
             self.crawler_process.crawl(name, **opts.__dict__)
         self.crawler_process.start()
