@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13afface-d663-4046-910b-99067c5cdae8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Study/oldboy/tsocket/Tim.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Study/oldboy/tsocket/t.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Study/oldboy/tsocket/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/Study/oldboy/tsocket/client.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Study/oldboy/tsocket/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/Study/oldboy/tsocket/server.py" afterDir="false" />
     </list>
@@ -54,7 +51,7 @@
     <SUITE FILE_PATH="coverage/Python$svm_train.coverage" NAME="svm_train Coverage Results" MODIFIED="1524101791771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Play/captcha" />
     <SUITE FILE_PATH="coverage/Python$svm_features.coverage" NAME="svm_features Coverage Results" MODIFIED="1523974944326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/captcha" />
     <SUITE FILE_PATH="coverage/Python$newtype.coverage" NAME="newtype Coverage Results" MODIFIED="1528183282206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study/oldboy/tclass" />
-    <SUITE FILE_PATH="coverage/Python$server.coverage" NAME="server Coverage Results" MODIFIED="1528808696880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study/oldboy/tsocket" />
+    <SUITE FILE_PATH="coverage/Python$server.coverage" NAME="server Coverage Results" MODIFIED="1528813749187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study/oldboy/tsocket" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -81,8 +78,8 @@
       <file leaf-file-name="server.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Study/oldboy/tsocket/server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="101" column="14" selection-start-line="101" selection-start-column="14" selection-end-line="101" selection-end-column="14" />
+            <state relative-caret-position="493">
+              <caret line="110" column="28" selection-start-line="110" selection-start-column="28" selection-end-line="110" selection-end-column="28" />
               <folding>
                 <element signature="e#97#110#0" expanded="true" />
               </folding>
@@ -586,8 +583,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.client" />
         <item itemvalue="Python.server" />
+        <item itemvalue="Python.client" />
         <item itemvalue="Python.single_instance" />
         <item itemvalue="Python.attr" />
         <item itemvalue="Python.newtype" />
@@ -727,7 +724,7 @@
       <workItem from="1528681873347" duration="6448000" />
       <workItem from="1528720963459" duration="8759000" />
       <workItem from="1528772576077" duration="15975000" />
-      <workItem from="1528808038218" duration="763000" />
+      <workItem from="1528808038218" duration="3376000" />
     </task>
     <task id="LOCAL-00001" summary="runoob">
       <created>1491462759698</created>
@@ -775,7 +772,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="448111000" />
+    <option name="totallyTimeSpent" value="450724000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -795,17 +792,17 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.22390318" side_tool="true" visible="true" weight="0.22064516" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.2246596" side_tool="true" visible="true" weight="0.22064516" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.19591528" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4924357" weight="0.1904762" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7760968" visible="true" weight="0.22064516" />
-      <window_info anchor="bottom" x="0" y="0" width="1368" height="832" id="Terminal" order="7" sideWeight="0.38653556" weight="0.16903226" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7753404" visible="true" weight="0.22064516" />
+      <window_info anchor="bottom" x="0" y="0" width="1368" height="832" id="Terminal" order="7" sideWeight="0.3857791" weight="0.16903226" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49719775" visible="true" weight="0.28971255" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49719775" visible="true" weight="0.28971255" />
       <window_info anchor="right" id="Database" order="3" weight="0.09228442" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.46747354" weight="0.26193547" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4667171" weight="0.26064515" />
       <window_info anchor="right" id="SciView" order="4" weight="0.18910742" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -900,13 +897,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Study/oldboy/data/country.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="31" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.IntelliJIdea2018.1/system/python_stubs/1072250519/builtins.py" />
     <entry file="file://$PROJECT_DIR$/Study/oldboy/base/moudle_xml.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1200,13 +1190,16 @@
     <entry file="file://$PROJECT_DIR$/Study/oldboy/tsocket/Tim.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/Study/oldboy/data/t.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Study/oldboy/data/tim.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Study/oldboy/tsocket/client.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="80" column="14" lean-forward="true" selection-start-line="80" selection-start-column="14" selection-end-line="80" selection-end-column="14" />
+        <state relative-caret-position="943">
+          <caret line="93" column="47" lean-forward="true" selection-start-line="93" selection-start-column="47" selection-end-line="93" selection-end-column="47" />
           <folding>
             <element signature="e#97#110#0" expanded="true" />
           </folding>
@@ -1215,8 +1208,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Study/oldboy/tsocket/server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="101" column="14" selection-start-line="101" selection-start-column="14" selection-end-line="101" selection-end-column="14" />
+        <state relative-caret-position="493">
+          <caret line="110" column="28" selection-start-line="110" selection-start-column="28" selection-end-line="110" selection-end-column="28" />
           <folding>
             <element signature="e#97#110#0" expanded="true" />
           </folding>
