@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13afface-d663-4046-910b-99067c5cdae8" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Study/oldboy/tsocket/tsocketserver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Study/oldboy/tsocket/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/Study/oldboy/tsocket/client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/oldboy/tsocket/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/Study/oldboy/tsocket/server.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,7 +36,7 @@
     <SUITE FILE_PATH="coverage/Python$num2english.coverage" NAME="num2english Coverage Results" MODIFIED="1524046746726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spider/test" />
     <SUITE FILE_PATH="coverage/Python$zhilianzhaopin.coverage" NAME="zhilianzhaopin Coverage Results" MODIFIED="1523946865176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spider/zhaopin" />
     <SUITE FILE_PATH="coverage/Python$main.coverage" NAME="main Coverage Results" MODIFIED="1526908974959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study/test/survey" />
-    <SUITE FILE_PATH="coverage/Python$client.coverage" NAME="client Coverage Results" MODIFIED="1528808716710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study/oldboy/tsocket" />
+    <SUITE FILE_PATH="coverage/Python$client.coverage" NAME="client Coverage Results" MODIFIED="1528815119220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study/oldboy/tsocket" />
     <SUITE FILE_PATH="coverage/Python$moudle_logging__1_.coverage" NAME="moudle_logging (1) Coverage Results" MODIFIED="1524102781218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study/oldboy" />
     <SUITE FILE_PATH="coverage/Python$thread_page9.coverage" NAME="thread_page9 Coverage Results" MODIFIED="1524126527010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study/zhifupython" />
     <SUITE FILE_PATH="coverage/Python$property.coverage" NAME="property Coverage Results" MODIFIED="1526881257706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study/oldboy/tclass" />
@@ -44,6 +45,7 @@
     <SUITE FILE_PATH="coverage/Python$moudle_xml.coverage" NAME="moudle_xml Coverage Results" MODIFIED="1524468058020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study/oldboy" />
     <SUITE FILE_PATH="coverage/Python$polymorphic.coverage" NAME="polymorphic Coverage Results" MODIFIED="1526873455023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study/oldboy/tclass" />
     <SUITE FILE_PATH="coverage/Python$moudle_configParser.coverage" NAME="moudle_configParser Coverage Results" MODIFIED="1524067812696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study/oldboy" />
+    <SUITE FILE_PATH="coverage/Python$tsocketserver.coverage" NAME="tsocketserver Coverage Results" MODIFIED="1528815095914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study/oldboy/tsocket" />
     <SUITE FILE_PATH="coverage/Python$regedit.coverage" NAME="regedit Coverage Results" MODIFIED="1524556142197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study/test" />
     <SUITE FILE_PATH="coverage/Python$51job3.coverage" NAME="51job3 Coverage Results" MODIFIED="1523957487868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spider/zhaopin" />
     <SUITE FILE_PATH="coverage/Python$otherElement.coverage" NAME="otherElement Coverage Results" MODIFIED="1526956937799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study/oldboy/tclass" />
@@ -51,7 +53,7 @@
     <SUITE FILE_PATH="coverage/Python$svm_train.coverage" NAME="svm_train Coverage Results" MODIFIED="1524101791771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Play/captcha" />
     <SUITE FILE_PATH="coverage/Python$svm_features.coverage" NAME="svm_features Coverage Results" MODIFIED="1523974944326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/captcha" />
     <SUITE FILE_PATH="coverage/Python$newtype.coverage" NAME="newtype Coverage Results" MODIFIED="1528183282206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study/oldboy/tclass" />
-    <SUITE FILE_PATH="coverage/Python$server.coverage" NAME="server Coverage Results" MODIFIED="1528813749187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study/oldboy/tsocket" />
+    <SUITE FILE_PATH="coverage/Python$server.coverage" NAME="server Coverage Results" MODIFIED="1528813981178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study/oldboy/tsocket" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -75,14 +77,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="server.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Study/oldboy/tsocket/server.py">
+      <file leaf-file-name="tsocketserver.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Study/oldboy/tsocket/tsocketserver.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="110" column="28" selection-start-line="110" selection-start-column="28" selection-end-line="110" selection-end-column="28" />
-              <folding>
-                <element signature="e#97#110#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="182">
+              <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -128,7 +127,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/captcha/img_tools.py" />
         <option value="$PROJECT_DIR$/Spider/spider_baike/spider_main.py" />
         <option value="$PROJECT_DIR$/Spider/test/num2english.py" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/017d324f-ae58-4985-83d1-436b5828dff5/console.sql" />
@@ -177,8 +175,9 @@
         <option value="$PROJECT_DIR$/Spider/jobs/jobs/commands/crawlall.py" />
         <option value="$PROJECT_DIR$/Spider/jobs/jobs/spiders/zhipin_spider.py" />
         <option value="$PROJECT_DIR$/Study/oldboy/tclass/single_instance.py" />
-        <option value="$PROJECT_DIR$/Study/oldboy/tsocket/client.py" />
         <option value="$PROJECT_DIR$/Study/oldboy/tsocket/server.py" />
+        <option value="$PROJECT_DIR$/Study/oldboy/tsocket/tsocketserver.py" />
+        <option value="$PROJECT_DIR$/Study/oldboy/tsocket/client.py" />
       </list>
     </option>
   </component>
@@ -250,7 +249,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Study/oldboy/tsocket" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -284,7 +283,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.server">
+  <component name="RunManager" selected="Python.client">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -446,25 +445,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="newtype" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Study" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Study/oldboy/tclass" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Study/oldboy/tclass/newtype.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="server" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Study" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -498,6 +478,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Study/oldboy/tclass/single_instance.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="tsocketserver" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Study/oldboy/tsocket" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Study/oldboy/tsocket/tsocketserver.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -575,19 +574,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
-      <item itemvalue="Python.newtype" />
       <item itemvalue="Python.attr" />
       <item itemvalue="Python.single_instance" />
       <item itemvalue="Python.server" />
       <item itemvalue="Python.client" />
+      <item itemvalue="Python.tsocketserver" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.server" />
         <item itemvalue="Python.client" />
+        <item itemvalue="Python.tsocketserver" />
+        <item itemvalue="Python.server" />
         <item itemvalue="Python.single_instance" />
         <item itemvalue="Python.attr" />
-        <item itemvalue="Python.newtype" />
       </list>
     </recent_temporary>
   </component>
@@ -724,7 +723,7 @@
       <workItem from="1528681873347" duration="6448000" />
       <workItem from="1528720963459" duration="8759000" />
       <workItem from="1528772576077" duration="15975000" />
-      <workItem from="1528808038218" duration="3376000" />
+      <workItem from="1528808038218" duration="7611000" />
     </task>
     <task id="LOCAL-00001" summary="runoob">
       <created>1491462759698</created>
@@ -772,7 +771,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="450724000" />
+    <option name="totallyTimeSpent" value="454959000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -792,17 +791,18 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.2246596" side_tool="true" visible="true" weight="0.22064516" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5340393" side_tool="true" visible="true" weight="0.25935483" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.19591528" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4924357" weight="0.1904762" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7753404" visible="true" weight="0.22064516" />
-      <window_info anchor="bottom" x="0" y="0" width="1368" height="832" id="Terminal" order="7" sideWeight="0.3857791" weight="0.16903226" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.77458394" weight="0.22064516" />
+      <window_info anchor="bottom" x="0" y="0" width="1368" height="832" id="Terminal" order="7" sideWeight="0.3850227" weight="0.16903226" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49719775" visible="true" weight="0.28971255" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49719775" visible="true" weight="0.28971255" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
       <window_info anchor="right" id="Database" order="3" weight="0.09228442" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4667171" weight="0.26064515" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.46596065" visible="true" weight="0.25935483" />
       <window_info anchor="right" id="SciView" order="4" weight="0.18910742" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -817,7 +817,6 @@
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Console" order="9" sideWeight="0.49924356" weight="0.3292517" />
       <window_info anchor="right" id="Properties" order="3" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="CheckStyle" order="7" weight="0.21837088" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.19064125" />
@@ -897,66 +896,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.IntelliJIdea2018.1/system/python_stubs/1072250519/builtins.py" />
-    <entry file="file://$PROJECT_DIR$/Study/oldboy/base/moudle_xml.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Study/test/regedit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="887">
-          <caret line="156" column="13" selection-start-line="156" selection-start-column="13" selection-end-line="156" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Study/test/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Study/oldboy/tclass/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Study/oldboy/tclass/before.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="17" lean-forward="true" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Study/oldboy/tclass/student.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Study/test/twith.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Study/oldboy/tclass/tclass">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Study/oldboy/tclass/Multi-Inheritance3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="26" column="26" lean-forward="true" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Study/oldboy/tclass/Multi-Inheritance.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="530">
@@ -1187,24 +1126,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Study/oldboy/tsocket/Tim.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Study/oldboy/data/t.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Study/oldboy/data/tim.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Study/oldboy/tsocket/client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="943">
-          <caret line="93" column="47" lean-forward="true" selection-start-line="93" selection-start-column="47" selection-end-line="93" selection-end-column="47" />
-          <folding>
-            <element signature="e#97#110#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Study/oldboy/tsocket/server.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1213,6 +1136,362 @@
           <folding>
             <element signature="e#97#110#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/oldboy/data/Tim.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/oldboy/tsocket/Tim.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/oldboy/tsocket/t.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/oldboy/tsocket/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="88" column="3" lean-forward="true" selection-start-line="88" selection-start-column="3" selection-end-line="88" selection-end-column="3" />
+          <folding>
+            <element signature="e#97#110#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://Python/socketserver.TCPServer">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>socketserver.TCPServer</OriginalElement>
+          <nodes>
+            <node x="46.5" y="0.0">object</node>
+            <node x="0.0" y="79.0">socketserver.BaseServer</node>
+            <node x="2.0" y="158.0">socketserver.TCPServer</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="socketserver.TCPServer" target="socketserver.BaseServer">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="socketserver.BaseServer" target="object">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="79.0" y="93.5" />
+          <SelectedNodes>
+            <node>object</node>
+          </SelectedNodes>
+          <Categories />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://Python/socketserver.BaseRequestHandler">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>socketserver.BaseRequestHandler</OriginalElement>
+          <nodes>
+            <node x="0.0" y="79.0">socketserver.BaseRequestHandler</node>
+            <node x="72.5" y="0.0">object</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="socketserver.BaseRequestHandler" target="object">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="105.0" y="54.0" />
+          <SelectedNodes />
+          <Categories />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://Python/socketserver.StreamRequestHandler">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>socketserver.StreamRequestHandler</OriginalElement>
+          <nodes>
+            <node x="6.5" y="79.0">socketserver.BaseRequestHandler</node>
+            <node x="79.0" y="0.0">object</node>
+            <node x="0.0" y="158.0">socketserver.StreamRequestHandler</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="socketserver.StreamRequestHandler" target="socketserver.BaseRequestHandler">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="socketserver.BaseRequestHandler" target="object">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="111.5" y="78.5" />
+          <SelectedNodes />
+          <Categories />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.IntelliJIdea2018.1/system/python_stubs/-645839530/_socket.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4551">
+          <caret line="640" lean-forward="true" selection-start-line="640" selection-end-line="640" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/oldboy/tsocket/socketserver.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="uml://Python/socketserver.BaseServer">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>socketserver.BaseServer</OriginalElement>
+          <nodes>
+            <node x="46.5" y="0.0">object</node>
+            <node x="0.0" y="79.0">socketserver.BaseServer</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="socketserver.BaseServer" target="object">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="79.0" y="54.0" />
+          <SelectedNodes>
+            <node>socketserver.BaseServer</node>
+          </SelectedNodes>
+          <Categories />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python/Python36/Lib/socketserver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="657" column="57" lean-forward="true" selection-start-line="657" selection-start-column="57" selection-end-line="657" selection-end-column="57" />
+          <folding>
+            <element signature="e#16678#17242#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://Python/#D:/Python/Python36/Lib/socketserver.py">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>#D:/Python/Python36/Lib/socketserver.py</OriginalElement>
+          <nodes>
+            <node x="290.0" y="1347.0">io.BufferedIOBase</node>
+            <node x="418.25" y="1049.0">_io._BufferedIOBase</node>
+            <node x="1147.0" y="508.0">socketserver.BaseServer</node>
+            <node x="626.5" y="1637.0">socketserver.ThreadingUnixStreamServer</node>
+            <node x="1382.7219696969694" y="1514.0">socketserver.ForkingUDPServer</node>
+            <node x="1073.25" y="1514.0">socketserver.UnixDatagramServer</node>
+            <node x="1747.5" y="651.0">socketserver.BaseRequestHandler</node>
+            <node x="0.0" y="640.0">abc.ABCMeta</node>
+            <node x="1212.2219696969694" y="1303.0">socketserver.UDPServer</node>
+            <node x="1187.9219696969697" y="1637.0">socketserver.ThreadingUDPServer</node>
+            <node x="1652.5" y="1104.0">socketserver.StreamRequestHandler</node>
+            <node x="339.0" y="431.0">_io._IOBase</node>
+            <node x="904.9219696969697" y="1637.0">socketserver.ThreadingUnixDatagramServer</node>
+            <node x="1457.2219696969694" y="1303.0">socketserver.ForkingMixIn</node>
+            <node x="1181.0" y="0.0">object</node>
+            <node x="1615.2219696969694" y="1514.0">socketserver.ForkingTCPServer</node>
+            <node x="586.0" y="1347.0">socketserver.UnixStreamServer</node>
+            <node x="139.25" y="1126.0">io.IOBase</node>
+            <node x="1080.5" y="1038.0">socketserver.TCPServer</node>
+            <node x="721.25" y="1492.0">socketserver.ThreadingMixIn</node>
+            <node x="1895.5" y="1104.0">socketserver.DatagramRequestHandler</node>
+            <node x="398.5" y="1637.0">socketserver.ThreadingTCPServer</node>
+            <node x="267.0" y="1470.0">socketserver._SocketWriter</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="socketserver.ThreadingUDPServer" target="socketserver.UDPServer">
+              <point x="52.75" y="-14.5" />
+              <point x="1346.1719696969697" y="1445.0" />
+              <point x="1324.7219696969694" y="1445.0" />
+              <point x="0.0" y="58.5" />
+            </edge>
+            <edge source="socketserver.ForkingTCPServer" target="socketserver.ForkingMixIn">
+              <point x="-48.5" y="-14.5" />
+              <point x="1663.7219696969694" y="1445.0" />
+              <point x="1676.9719696969694" y="1445.0" />
+              <point x="73.25" y="58.5" />
+            </edge>
+            <edge source="socketserver.BaseRequestHandler" target="object">
+              <point x="1.1368683772161603E-13" y="-58.5" />
+              <point x="1889.0" y="401.0" />
+              <point x="1406.8999999999999" y="401.0" />
+              <point x="100.39999999999998" y="190.5" />
+            </edge>
+            <edge source="socketserver.ThreadingTCPServer" target="socketserver.ThreadingMixIn">
+              <point x="52.0" y="-14.5" />
+              <point x="554.5" y="1617.0" />
+              <point x="762.75" y="1617.0" />
+              <point x="-124.5" y="36.5" />
+            </edge>
+            <edge source="_io._BufferedIOBase" target="_io._IOBase">
+              <point x="0.0" y="-91.5" />
+              <point x="62.75" y="278.5" />
+            </edge>
+            <edge source="socketserver.ThreadingUnixStreamServer" target="socketserver.UnixStreamServer">
+              <point x="-62.25" y="-14.5" />
+              <point x="688.75" y="1607.0" />
+              <point x="683.5" y="1607.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="socketserver.ThreadingUnixStreamServer" target="socketserver.ThreadingMixIn">
+              <point x="62.25" y="-14.5" />
+              <point x="813.25" y="1617.0" />
+              <point x="845.75" y="1617.0" />
+              <point x="-41.5" y="36.5" />
+            </edge>
+            <edge source="socketserver.ThreadingTCPServer" target="socketserver.TCPServer">
+              <point x="-52.0" y="-14.5" />
+              <point x="450.5" y="1273.0" />
+              <point x="1137.0" y="1273.0" />
+              <point x="-169.5" y="102.5" />
+            </edge>
+            <edge source="socketserver.ThreadingUDPServer" target="socketserver.ThreadingMixIn">
+              <point x="-52.75" y="-14.5" />
+              <point x="1240.6719696969697" y="1607.0" />
+              <point x="1011.75" y="1607.0" />
+              <point x="124.5" y="36.5" />
+            </edge>
+            <edge source="socketserver.ForkingUDPServer" target="socketserver.ForkingMixIn">
+              <point x="49.25" y="-14.5" />
+              <point x="-73.25" y="58.5" />
+            </edge>
+            <edge source="socketserver.ThreadingMixIn" target="object">
+              <point x="0.0" y="-36.5" />
+              <point x="887.25" y="411.0" />
+              <point x="1256.3" y="411.0" />
+              <point x="-50.200000000000045" y="190.5" />
+            </edge>
+            <edge source="socketserver.ThreadingUnixDatagramServer" target="socketserver.UnixDatagramServer">
+              <point x="65.75" y="-14.5" />
+              <point x="1102.1719696969697" y="1617.0" />
+              <point x="1177.75" y="1617.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="socketserver.BaseServer" target="object">
+              <point x="0.0" y="-201.5" />
+              <point x="0.0" y="190.5" />
+            </edge>
+            <edge source="socketserver.UnixDatagramServer" target="socketserver.UDPServer">
+              <point x="0.0" y="-14.5" />
+              <point x="1177.75" y="1445.0" />
+              <point x="1249.7219696969694" y="1445.0" />
+              <point x="-75.0" y="58.5" />
+            </edge>
+            <edge source="socketserver.StreamRequestHandler" target="socketserver.BaseRequestHandler">
+              <point x="0.0" y="-36.5" />
+              <point x="1764.0" y="1013.0" />
+              <point x="1818.25" y="1013.0" />
+              <point x="-70.75" y="58.5" />
+            </edge>
+            <edge source="_io._IOBase" target="object">
+              <point x="0.0" y="-278.5" />
+              <point x="464.5" y="401.0" />
+              <point x="1206.1" y="401.0" />
+              <point x="-100.39999999999998" y="190.5" />
+            </edge>
+            <edge source="socketserver.TCPServer" target="socketserver.BaseServer">
+              <point x="0.0" y="-102.5" />
+              <point x="0.0" y="201.5" />
+            </edge>
+            <edge source="socketserver.ForkingTCPServer" target="socketserver.TCPServer">
+              <point x="48.5" y="-14.5" />
+              <point x="1760.7219696969694" y="1273.0" />
+              <point x="1476.0" y="1273.0" />
+              <point x="169.5" y="102.5" />
+            </edge>
+            <edge source="io.BufferedIOBase" target="io.IOBase">
+              <point x="-31.75" y="-14.5" />
+              <point x="321.75" y="1283.0" />
+              <point x="179.75" y="1283.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="socketserver.ForkingMixIn" target="object">
+              <point x="0.0" y="-58.5" />
+              <point x="1603.7219696969694" y="1283.0" />
+              <point x="1642.0" y="1283.0" />
+              <point x="1642.0" y="411.0" />
+              <point x="1356.6999999999998" y="411.0" />
+              <point x="50.19999999999993" y="190.5" />
+            </edge>
+            <edge source="socketserver.UnixStreamServer" target="socketserver.TCPServer">
+              <point x="0.0" y="-14.5" />
+              <point x="683.5" y="1283.0" />
+              <point x="1250.0" y="1283.0" />
+              <point x="-56.5" y="102.5" />
+            </edge>
+            <edge source="io.IOBase" target="_io._IOBase">
+              <point x="20.25" y="-14.5" />
+              <point x="200.0" y="1013.0" />
+              <point x="401.75" y="1013.0" />
+              <point x="-62.75" y="278.5" />
+            </edge>
+            <edge source="socketserver.DatagramRequestHandler" target="socketserver.BaseRequestHandler">
+              <point x="0.0" y="-36.5" />
+              <point x="2014.0" y="1013.0" />
+              <point x="1959.75" y="1013.0" />
+              <point x="70.75000000000011" y="58.5" />
+            </edge>
+            <edge source="socketserver.UDPServer" target="socketserver.TCPServer">
+              <point x="0.0" y="-58.5" />
+              <point x="1324.7219696969694" y="1283.0" />
+              <point x="1363.0" y="1283.0" />
+              <point x="56.5" y="102.5" />
+            </edge>
+            <edge source="io.BufferedIOBase" target="_io._BufferedIOBase">
+              <point x="31.75" y="-14.5" />
+              <point x="385.25" y="1263.0" />
+              <point x="527.25" y="1263.0" />
+              <point x="0.0" y="91.5" />
+            </edge>
+            <edge source="socketserver.ForkingUDPServer" target="socketserver.UDPServer">
+              <point x="-49.25" y="-14.5" />
+              <point x="1431.9719696969694" y="1445.0" />
+              <point x="1399.7219696969694" y="1445.0" />
+              <point x="75.0" y="58.5" />
+            </edge>
+            <edge source="socketserver._SocketWriter" target="io.BufferedIOBase">
+              <point x="0.0" y="-58.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="socketserver.ThreadingUnixDatagramServer" target="socketserver.ThreadingMixIn">
+              <point x="-65.75" y="-14.5" />
+              <point x="970.6719696969697" y="1617.0" />
+              <point x="928.75" y="1617.0" />
+              <point x="41.5" y="36.5" />
+            </edge>
+            <edge source="io.IOBase" target="abc.ABCMeta">
+              <point x="-20.25" y="-14.5" />
+              <point x="0.0" y="69.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="1131.5" y="553.5" />
+          <SelectedNodes>
+            <node>abc.ABCMeta</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Inner Classes</Category>
+            <Category>Methods</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/oldboy/tsocket/tsocketserver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
         </state>
       </provider>
     </entry>

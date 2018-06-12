@@ -92,4 +92,4 @@ class TestSocketClient(object):
 
 if __name__ == "__main__":
     test_socket_client = TestSocketClient(1226)
-    test_socket_client.test_image()
+    test_socket_client.test1()
