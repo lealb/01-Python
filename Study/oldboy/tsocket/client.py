@@ -4,6 +4,7 @@
 # Version:v1.0
 # Date:2018-06-11-09:56 AM
 import socket
+import os
 
 
 def test1(port, ip="127.0.0.1"):
@@ -58,6 +59,36 @@ def test_cmd(port, ip="127.0.0.1"):
     sk.close()
 
 
+def test_image(port, ip="127.0.0.1"):
+    # 1.创建对象
+    sk = socket.socket()
+    # 2.连接服务端指定的ip地址和端口
+    address = (ip, port)
+    sk.connect(address)
+    BASE_PATH = os.path.dirname(os.path.abspath(__file__))
+    while True:
+        command = input(">>>>").strip()
+        # command = "Post C:/Users/leali/Pictures/Camera Roll/Tim.png"
+        cmd, path = command.split(" ")
+        # 1 获取文件信息
+        path = os.path.join(BASE_PATH, path)
+        filename = os.path.basename(path)
+        # os.stat(path).st_size
+        file_size = os.path.getsize(filename)
+        # 2.发送文件信息
+        file_info = "post %s %s" % (filename, file_size)
+        sk.send(file_info.encode("utf8"))
+        # 发送文件
+        with open(path, "rb") as file:
+            has_sent = 0
+            while has_sent != file_size:
+                send_data = file.read(1024)
+                sk.sendall(send_data)
+                has_sent += len(send_data)
+            print("Send Successfully")
+
+
 if __name__ == "__main__":
     # test1(1226)
-    test_cmd(1226)
+    # test_cmd(1226)
+    test_image(1226)
