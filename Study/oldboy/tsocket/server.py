@@ -4,6 +4,7 @@
 # Version:v1.0
 # Date:2018-06-11-09:52 AM
 import socket
+import subprocess
 
 
 def test1(port, ip="127.0.0.1"):
@@ -45,5 +46,35 @@ def test1(port, ip="127.0.0.1"):
     sk.close()
 
 
+def test_cmd(port, ip="127.0.0.1"):
+    # 1.实例化套接字对象
+    sk = socket.socket()
+    # 2.指定连接的ip地址和端口
+    address = (ip, port)
+    # 3 服务器绑定
+    sk.bind(address)
+    # 4 设置连接等待数
+    sk.listen(3)
+    # waiting connect,get accept
+    print("%s is online,waiting connect" % address[1])
+    # 5.准备监听，获取连接信息
+    conn, addr = sk.accept()
+    print("%s Connected successfully" % addr[1])
+    # 6.准备接收客户端命令，执行返回结果
+    while True:
+        command = conn.recv(1024)
+        if not command:
+            break
+        result = subprocess.Popen(str(command, "utf8"), shell=True, stdout=subprocess.PIPE)
+        result_data = result.stdout.read()
+        result_length = bytes(str(len(result_data)), "utf8")
+        # sendall会把数据直接全部发送到客户端，客户端将所有的数据都放到缓冲区,
+        # 每次recv多少字节取决于recv内的参数，理论不应该超过8k
+        conn.sendall(result_length)
+        conn.sendall(result_data)
+    conn.close()
+    sk.close()
+
+
 if __name__ == "__main__":
-    test1(1226)
+    test_cmd(1226)
