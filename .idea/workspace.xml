@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13afface-d663-4046-910b-99067c5cdae8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Study/oldboy/tsocket/tsocketserver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Study/oldboy/tthreading/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Study/oldboy/tthreading/simple_thread.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/oldboy/tsocket/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/Study/oldboy/tsocket/client.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,6 +36,7 @@
     <SUITE FILE_PATH="coverage/Python$num2english.coverage" NAME="num2english Coverage Results" MODIFIED="1524046746726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spider/test" />
     <SUITE FILE_PATH="coverage/Python$zhilianzhaopin.coverage" NAME="zhilianzhaopin Coverage Results" MODIFIED="1523946865176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spider/zhaopin" />
     <SUITE FILE_PATH="coverage/Python$main.coverage" NAME="main Coverage Results" MODIFIED="1526908974959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study/test/survey" />
+    <SUITE FILE_PATH="coverage/Python$simple_thread.coverage" NAME="simple_thread Coverage Results" MODIFIED="1528882916884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study/oldboy/tthreading" />
     <SUITE FILE_PATH="coverage/Python$client.coverage" NAME="client Coverage Results" MODIFIED="1528815119220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study/oldboy/tsocket" />
     <SUITE FILE_PATH="coverage/Python$moudle_logging__1_.coverage" NAME="moudle_logging (1) Coverage Results" MODIFIED="1524102781218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study/oldboy" />
     <SUITE FILE_PATH="coverage/Python$thread_page9.coverage" NAME="thread_page9 Coverage Results" MODIFIED="1524126527010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study/zhifupython" />
@@ -77,11 +78,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="tsocketserver.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Study/oldboy/tsocket/tsocketserver.py">
+      <file leaf-file-name="simple_thread.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Study/oldboy/tthreading/simple_thread.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+            <state relative-caret-position="529">
+              <caret line="77" column="14" selection-start-line="77" selection-start-column="14" selection-end-line="77" selection-end-column="14" />
+              <folding>
+                <element signature="e#103#119#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -127,7 +131,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Spider/spider_baike/spider_main.py" />
         <option value="$PROJECT_DIR$/Spider/test/num2english.py" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/017d324f-ae58-4985-83d1-436b5828dff5/console.sql" />
         <option value="$PROJECT_DIR$/Spider/zhaopin/test.py" />
@@ -176,8 +179,9 @@
         <option value="$PROJECT_DIR$/Spider/jobs/jobs/spiders/zhipin_spider.py" />
         <option value="$PROJECT_DIR$/Study/oldboy/tclass/single_instance.py" />
         <option value="$PROJECT_DIR$/Study/oldboy/tsocket/server.py" />
-        <option value="$PROJECT_DIR$/Study/oldboy/tsocket/tsocketserver.py" />
         <option value="$PROJECT_DIR$/Study/oldboy/tsocket/client.py" />
+        <option value="$PROJECT_DIR$/Study/oldboy/tsocket/tsocketserver.py" />
+        <option value="$PROJECT_DIR$/Study/oldboy/tthreading/simple_thread.py" />
       </list>
     </option>
   </component>
@@ -207,6 +211,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -230,15 +236,13 @@
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="Study" type="462c0819:PsiDirectoryNode" />
               <item name="oldboy" type="462c0819:PsiDirectoryNode" />
-              <item name="tsocket" type="462c0819:PsiDirectoryNode" />
+              <item name="tthreading" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -256,19 +260,19 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\01-Work\Python\Study\oldboy\base" />
-      <recent name="D:\01-Work\Python\Study\test\survey" />
-      <recent name="D:\01-Work\Python\Study\oldboy" />
-      <recent name="D:\01-Work\Python\Play" />
-      <recent name="D:\01-Work\Python\Spider" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\01-Work\Python\Study\oldboy\tsocket" />
       <recent name="D:\01-Work\Python\Study\oldboy\tclass" />
       <recent name="D:\01-Work\Python\Spider\zhaopin" />
       <recent name="D:\01-Work\Python\captcha-svm-master" />
       <recent name="D:\01-Work\Python\Study\imooc" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\01-Work\Python\Study\oldboy\base" />
+      <recent name="D:\01-Work\Python\Study\test\survey" />
+      <recent name="D:\01-Work\Python\Study\oldboy" />
+      <recent name="D:\01-Work\Python\Play" />
+      <recent name="D:\01-Work\Python\Spider" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -283,7 +287,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.client">
+  <component name="RunManager" selected="Python.simple_thread">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -407,25 +411,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="attr" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Study" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Study/oldboy/tclass" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Study/oldboy/tclass/attr.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="client" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Study" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -459,6 +444,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Study/oldboy/tsocket/server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="simple_thread" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Study/oldboy/tthreading" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Study/oldboy/tthreading/simple_thread.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -574,19 +578,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
-      <item itemvalue="Python.attr" />
       <item itemvalue="Python.single_instance" />
       <item itemvalue="Python.server" />
       <item itemvalue="Python.client" />
       <item itemvalue="Python.tsocketserver" />
+      <item itemvalue="Python.simple_thread" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.simple_thread" />
         <item itemvalue="Python.client" />
         <item itemvalue="Python.tsocketserver" />
         <item itemvalue="Python.server" />
         <item itemvalue="Python.single_instance" />
-        <item itemvalue="Python.attr" />
       </list>
     </recent_temporary>
   </component>
@@ -723,7 +727,9 @@
       <workItem from="1528681873347" duration="6448000" />
       <workItem from="1528720963459" duration="8759000" />
       <workItem from="1528772576077" duration="15975000" />
-      <workItem from="1528808038218" duration="7611000" />
+      <workItem from="1528808038218" duration="7666000" />
+      <workItem from="1528855391410" duration="7218000" />
+      <workItem from="1528891481985" duration="569000" />
     </task>
     <task id="LOCAL-00001" summary="runoob">
       <created>1491462759698</created>
@@ -771,7 +777,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="454959000" />
+    <option name="totallyTimeSpent" value="462801000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -791,18 +797,16 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5340393" side_tool="true" visible="true" weight="0.25935483" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.22617246" side_tool="true" visible="true" weight="0.22064516" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.19591528" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4924357" weight="0.1904762" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.77458394" weight="0.22064516" />
-      <window_info anchor="bottom" x="0" y="0" width="1368" height="832" id="Terminal" order="7" sideWeight="0.3850227" weight="0.16903226" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.77382755" weight="0.22064516" />
+      <window_info anchor="bottom" x="0" y="0" width="1368" height="832" id="Terminal" order="7" sideWeight="0.38350984" weight="0.16903226" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49719775" visible="true" weight="0.28971255" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49719775" visible="true" weight="0.2987897" />
       <window_info anchor="right" id="Database" order="3" weight="0.09228442" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.46596065" visible="true" weight="0.25935483" />
       <window_info anchor="right" id="SciView" order="4" weight="0.18910742" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -817,8 +821,10 @@
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Console" order="9" sideWeight="0.49924356" weight="0.3292517" />
       <window_info anchor="right" id="Properties" order="3" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="CheckStyle" order="7" weight="0.21837088" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.46596065" weight="0.25935483" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.19064125" />
       <window_info anchor="bottom" id="Messages" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -896,27 +902,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Study/oldboy/tclass/Multi-Inheritance.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Study/oldboy/tclass/polymorphic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Study/oldboy/tclass/page_property.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Study/test/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1126,25 +1111,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Study/oldboy/data/t.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/oldboy/data/t.png" />
     <entry file="file://$PROJECT_DIR$/Study/oldboy/tsocket/server.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="110" column="28" selection-start-line="110" selection-start-column="28" selection-end-line="110" selection-end-column="28" />
-          <folding>
-            <element signature="e#97#110#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Study/oldboy/data/Tim.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Study/oldboy/tsocket/Tim.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/oldboy/data/Tim.png" />
+    <entry file="file://$PROJECT_DIR$/Study/oldboy/tsocket/Tim.png" />
     <entry file="file://$PROJECT_DIR$/Study/oldboy/tsocket/t.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -1152,9 +1128,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="512">
           <caret line="88" column="3" lean-forward="true" selection-start-line="88" selection-start-column="3" selection-end-line="88" selection-end-column="3" />
-          <folding>
-            <element signature="e#97#110#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1179,11 +1152,12 @@
               <point x="0.0" y="14.5" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="79.0" y="93.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="79.0" y="94.0" />
           <SelectedNodes>
             <node>object</node>
           </SelectedNodes>
           <Categories />
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
@@ -1206,6 +1180,7 @@
           <settings layout="Hierarchic Group" zoom="1.0" x="105.0" y="54.0" />
           <SelectedNodes />
           <Categories />
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
@@ -1230,9 +1205,10 @@
               <point x="0.0" y="14.5" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="111.5" y="78.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="112.0" y="79.0" />
           <SelectedNodes />
           <Categories />
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
@@ -1267,6 +1243,7 @@
             <node>socketserver.BaseServer</node>
           </SelectedNodes>
           <Categories />
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
@@ -1274,9 +1251,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
           <caret line="657" column="57" lean-forward="true" selection-start-line="657" selection-start-column="57" selection-end-line="657" selection-end-column="57" />
-          <folding>
-            <element signature="e#16678#17242#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1477,21 +1451,42 @@
               <point x="0.0" y="69.5" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="1131.5" y="553.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="1132.0" y="554.0" />
           <SelectedNodes>
             <node>abc.ABCMeta</node>
           </SelectedNodes>
           <Categories>
-            <Category>Inner Classes</Category>
             <Category>Methods</Category>
+            <Category>Inner Classes</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Study/oldboy/tsocket/tsocketserver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+        <state relative-caret-position="408">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/oldboy/base/moudle_time.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/oldboy/base/decorator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="56" column="18" lean-forward="true" selection-start-line="50" selection-start-column="4" selection-end-line="56" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/oldboy/tthreading/simple_thread.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="77" column="14" selection-start-line="77" selection-start-column="14" selection-end-line="77" selection-end-column="14" />
+          <folding>
+            <element signature="e#103#119#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
