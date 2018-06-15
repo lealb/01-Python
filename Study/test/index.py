@@ -51,8 +51,8 @@ for x in s:
 
 # set取其差集
 s = set(['Adam', 'Lisa', 'Paul'])
-L = ['Adam', 'Lisa', 'Bart', 'Paul']
-m = set(L)
+products = ['Adam', 'Lisa', 'Bart', 'Paul']
+m = set(products)
 p = s - m
 q = m - s
 s = p | q
@@ -64,13 +64,13 @@ print(4)
 print(sum([n ** 2 for n in range(1, 101)]))  # i*i equal i**2
 
 # 1
-L = []
+products = []
 x = 1
 N = 100
 while x <= N:
-    L.append(x * x)
+    products.append(x * x)
     x = x + 1
-print(sum(L))
+print(sum(products))
 
 
 # 4.1递归函数-汉诺塔
