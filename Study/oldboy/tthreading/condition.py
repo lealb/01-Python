@@ -5,7 +5,8 @@
 # Date:2018-06-14-02:36 PM
 
 
-import threading, time
+import threading
+import time
 from random import randint
 
 

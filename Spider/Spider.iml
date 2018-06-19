@@ -20,13 +20,5 @@
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Django" />
-    <option name="TEMPLATE_FOLDERS">
-      <list>
-        <option value="$MODULE_DIR$/douban" />
-        <option value="$MODULE_DIR$/baidutianba" />
-        <option value="$MODULE_DIR$/qiushibaike" />
-        <option value="$MODULE_DIR$/spider_baike" />
-      </list>
-    </option>
   </component>
 </module>
