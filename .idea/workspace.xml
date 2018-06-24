@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13afface-d663-4046-910b-99067c5cdae8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Study/oldboy/tthreading/tprocess_ communication.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Study/oldboy/tthreading/coroutine_gevent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Study/oldboy/tthreading/coroutine_yield.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/oldboy/tthreading/tprocess_queue.py" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,6 +36,7 @@
     <SUITE FILE_PATH="coverage/Python$newtype.coverage" NAME="newtype Coverage Results" MODIFIED="1528183282206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study/oldboy/tclass" />
     <SUITE FILE_PATH="coverage/Python$semaphore.coverage" NAME="semaphore Coverage Results" MODIFIED="1528954901345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study/oldboy/tthreading" />
     <SUITE FILE_PATH="coverage/Python$51jobcsv.coverage" NAME="51jobcsv Coverage Results" MODIFIED="1523956449896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spider/zhaopin" />
+    <SUITE FILE_PATH="coverage/Python$coroutine_gevent.coverage" NAME="coroutine_gevent Coverage Results" MODIFIED="1529832014578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study/oldboy/tthreading" />
     <SUITE FILE_PATH="coverage/Python$zhilian.coverage" NAME="zhilian Coverage Results" MODIFIED="1523945668377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spider/zhaopin" />
     <SUITE FILE_PATH="coverage/Python$Unittests_in_test_py.coverage" NAME="Unittests in test.py Coverage Results" MODIFIED="1526909049657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study/test/survey" />
     <SUITE FILE_PATH="coverage/Python$Multi_Inheritance.coverage" NAME="Multi-Inheritance Coverage Results" MODIFIED="1526871826252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study/oldboy/tclass" />
@@ -45,7 +46,7 @@
     <SUITE FILE_PATH="coverage/Python$condition.coverage" NAME="condition Coverage Results" MODIFIED="1529388034912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study/oldboy/tthreading" />
     <SUITE FILE_PATH="coverage/Python$attr.coverage" NAME="attr Coverage Results" MODIFIED="1528184616078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study/oldboy/tclass" />
     <SUITE FILE_PATH="coverage/Python$single_instance.coverage" NAME="single_instance Coverage Results" MODIFIED="1528551629637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study/oldboy/tclass" />
-    <SUITE FILE_PATH="coverage/Python$test.coverage" NAME="test Coverage Results" MODIFIED="1526479917033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study/test" />
+    <SUITE FILE_PATH="coverage/Python$test.coverage" NAME="test Coverage Results" MODIFIED="1529831862581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study/oldboy/tthreading" />
     <SUITE FILE_PATH="coverage/Python$moudle_sys.coverage" NAME="moudle_sys Coverage Results" MODIFIED="1523587140649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study/oldboy" />
     <SUITE FILE_PATH="coverage/Python$zhaopin.coverage" NAME="zhaopin Coverage Results" MODIFIED="1523946584354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spider/zhaopin" />
     <SUITE FILE_PATH="coverage/Python$num2english.coverage" NAME="num2english Coverage Results" MODIFIED="1524046746726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spider/test" />
@@ -54,6 +55,7 @@
     <SUITE FILE_PATH="coverage/Python$client.coverage" NAME="client Coverage Results" MODIFIED="1528815119220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study/oldboy/tsocket" />
     <SUITE FILE_PATH="coverage/Python$moudle_logging__1_.coverage" NAME="moudle_logging (1) Coverage Results" MODIFIED="1524102781218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study/oldboy" />
     <SUITE FILE_PATH="coverage/Python$event.coverage" NAME="event Coverage Results" MODIFIED="1529394761608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study/oldboy/tthreading" />
+    <SUITE FILE_PATH="coverage/Python$coroutine_yield.coverage" NAME="coroutine_yield Coverage Results" MODIFIED="1529825210639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study/oldboy/tthreading" />
     <SUITE FILE_PATH="coverage/Python$property.coverage" NAME="property Coverage Results" MODIFIED="1526881257706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study/oldboy/tclass" />
     <SUITE FILE_PATH="coverage/Python$before.coverage" NAME="before Coverage Results" MODIFIED="1526480000127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study/oldboy/tclass" />
     <SUITE FILE_PATH="coverage/Python$moudle_xml.coverage" NAME="moudle_xml Coverage Results" MODIFIED="1524468058020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study/oldboy" />
@@ -89,13 +91,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="tprocess_ communication.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Study/oldboy/tthreading/tprocess_ communication.py">
+      <file leaf-file-name="coroutine_gevent.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Study/oldboy/tthreading/coroutine_gevent.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="82" column="23" selection-start-line="82" selection-start-column="23" selection-end-line="82" selection-end-column="23" />
+            <state relative-caret-position="363">
+              <caret line="56" column="35" lean-forward="true" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
               <folding>
-                <element signature="e#156#212#0" expanded="true" />
+                <element signature="e#97#126#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -142,9 +144,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Play/captcha/svm_features.py" />
-        <option value="$PROJECT_DIR$/Play/captcha/img_tools.py" />
-        <option value="$PROJECT_DIR$/Study/oldboy/moudle_logging.py" />
         <option value="$PROJECT_DIR$/Study/oldboy/moudle_json.py" />
         <option value="$PROJECT_DIR$/Study/zhifupython/thread_page9.py" />
         <option value="$PROJECT_DIR$/Study/oldboy/re_moudle.py" />
@@ -193,6 +192,9 @@
         <option value="$PROJECT_DIR$/Study/oldboy/tthreading/fork.py" />
         <option value="$PROJECT_DIR$/Study/oldboy/tthreading/tprocess_queue.py" />
         <option value="$PROJECT_DIR$/Study/oldboy/tthreading/tprocess_ communication.py" />
+        <option value="$PROJECT_DIR$/Study/oldboy/tthreading/coroutine_yield.py" />
+        <option value="$PROJECT_DIR$/Study/oldboy/tthreading/test.py" />
+        <option value="$PROJECT_DIR$/Study/oldboy/tthreading/coroutine_gevent.py" />
       </list>
     </option>
   </component>
@@ -266,10 +268,10 @@
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="D:/Anaconda3/libs" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.36004785" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="com.chrisrm.idea.config" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -307,7 +309,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.tprocess_queue">
+  <component name="RunManager" selected="Python.coroutine_gevent">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -431,7 +433,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="event" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="coroutine_gevent" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -444,13 +446,13 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Study/oldboy/tthreading/event.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Study/oldboy/tthreading/coroutine_gevent.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="event_light" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="coroutine_yield" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -463,7 +465,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Study/oldboy/tthreading/event_light.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Study/oldboy/tthreading/coroutine_yield.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -488,6 +490,25 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Study/oldboy/tthreading" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Study/oldboy/tthreading/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="tprocess_queue" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Study" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -502,25 +523,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="D:\01-Work\Python\Study\oldboy\tthreading\tprocess_ communication.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="tqueue" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Study" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Study/oldboy/tthreading" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Study/oldboy/tthreading/tqueue.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -598,19 +600,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
-      <item itemvalue="Python.event" />
-      <item itemvalue="Python.event_light" />
-      <item itemvalue="Python.tqueue" />
       <item itemvalue="Python.fork" />
       <item itemvalue="Python.tprocess_queue" />
+      <item itemvalue="Python.coroutine_yield" />
+      <item itemvalue="Python.coroutine_gevent" />
+      <item itemvalue="Python.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.coroutine_gevent" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.coroutine_yield" />
         <item itemvalue="Python.tprocess_queue" />
         <item itemvalue="Python.fork" />
-        <item itemvalue="Python.tqueue" />
-        <item itemvalue="Python.event_light" />
-        <item itemvalue="Python.event" />
       </list>
     </recent_temporary>
   </component>
@@ -764,7 +766,8 @@
       <workItem from="1529393843545" duration="63000" />
       <workItem from="1529393952697" duration="2671000" />
       <workItem from="1529472935460" duration="3397000" />
-      <workItem from="1529765410485" duration="4447000" />
+      <workItem from="1529765410485" duration="4902000" />
+      <workItem from="1529824315660" duration="7338000" />
     </task>
     <task id="LOCAL-00001" summary="runoob">
       <created>1491462759698</created>
@@ -812,7 +815,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="488859000" />
+    <option name="totallyTimeSpent" value="496652000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -832,17 +835,17 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.23600605" side_tool="true" visible="true" weight="0.19354838" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.2375189" side_tool="true" visible="true" weight="0.19354838" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.19591528" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4924357" weight="0.1904762" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7639939" visible="true" weight="0.19354838" />
-      <window_info anchor="bottom" x="0" y="0" width="1368" height="832" id="Terminal" order="7" sideWeight="0.3721634" weight="0.20903225" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7624811" visible="true" weight="0.19354838" />
+      <window_info anchor="bottom" x="0" y="0" width="1368" height="832" id="Terminal" order="7" sideWeight="0.37065053" weight="0.20903225" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49719775" visible="true" weight="0.3797277" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49719775" visible="true" weight="0.1860817" />
       <window_info anchor="right" id="Database" order="3" weight="0.09228442" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.46293494" weight="0.25935483" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.46217853" weight="0.25935483" />
       <window_info anchor="right" id="SciView" order="4" weight="0.18910742" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -903,6 +906,8 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="true" />
     <MESSAGE value="runoob" />
     <MESSAGE value="page4" />
     <MESSAGE value="clean" />
@@ -937,92 +942,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Study/tpymysql/row.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Study/tpymysql/tupdate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="28" column="40" lean-forward="true" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Study/tpymysql/tselect.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="46" column="19" lean-forward="true" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Study/tpymysql/tinsert.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Study/tpymysql/tdelete.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Study/tpymysql/pymysql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
-          <caret line="62" column="10" lean-forward="true" selection-start-line="24" selection-end-line="62" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Study/tpymysql/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="55" lean-forward="true" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Study/tpymysql/smain.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Study/oldboy/tclass/property.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Study/oldboy/tclass/newtype.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Study/oldboy/tclass/attr.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spider/taobao/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spider/jobs/jobs/middlewares.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="59" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spider/jobs/jobs/commands/crawlall.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Spider/jobs/jobs/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="466">
@@ -1432,16 +1351,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Study/oldboy/base/moudle_time.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Study/oldboy/base/decorator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="56" column="18" lean-forward="true" selection-start-line="50" selection-start-column="4" selection-end-line="56" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Study/oldboy/tthreading/simple_thread.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="501">
@@ -1502,9 +1411,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="519">
           <caret line="76" column="22" lean-forward="true" selection-start-line="76" selection-start-column="22" selection-end-line="76" selection-end-column="22" />
-          <folding>
-            <element signature="e#106#115#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1527,10 +1433,96 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Study/oldboy/tthreading/tprocess_ communication.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="82" column="23" selection-start-line="82" selection-start-column="23" selection-end-line="82" selection-end-column="23" />
+        <state relative-caret-position="1292">
+          <caret line="79" column="27" lean-forward="true" selection-start-line="79" selection-start-column="27" selection-end-line="79" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/oldboy/base/moudle_random.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/oldboy/base/moudle_re.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/oldboy/base/moudle_os.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-640" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/oldboy/base/moudle_sys.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-79" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/oldboy/base/moudle_time.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-218">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/oldboy/base/fun.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1479" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/oldboy/base/generator.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/oldboy/base/decorator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="111" column="27" selection-start-line="111" selection-start-column="23" selection-end-line="111" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/oldboy/tthreading/python.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/oldboy/tthreading/github.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/Anaconda3/Lib/site-packages/gevent/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="92" column="20" selection-start-line="92" selection-start-column="20" selection-end-line="92" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda3/Lib/site-packages/gevent/greenlet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="513" column="8" selection-start-line="513" selection-start-column="8" selection-end-line="513" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/oldboy/tthreading/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/oldboy/tthreading/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="7" column="128" lean-forward="true" selection-start-line="7" selection-start-column="128" selection-end-line="7" selection-end-column="128" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/oldboy/tthreading/coroutine_yield.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/oldboy/tthreading/coroutine_gevent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="56" column="35" lean-forward="true" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
           <folding>
-            <element signature="e#156#212#0" expanded="true" />
+            <element signature="e#97#126#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1576,7 +1568,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>Python 2.7 (Python)</last-edited>
+          <last-edited>Python 3.6 (Python)</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
