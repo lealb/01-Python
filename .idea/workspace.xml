@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13afface-d663-4046-910b-99067c5cdae8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Study/oldboy/base/args.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataAnalysis/pydata/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataAnalysis/pydata/ch02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Study/oldboy/base/trun.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/oldboy/tclass/Multi-Inheritance3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Study/oldboy/tclass/Multi-Inheritance3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/itcast/01-datatyppe.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/itcast/__init__.py" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,11 +29,13 @@
     <SUITE FILE_PATH="coverage/Python$Unittests_for_test_TestAnonymousSurvey_test_store_single_response.coverage" NAME="Unittests for test.TestAnonymousSurvey.test_store_single_response Coverage Results" MODIFIED="1526908555032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study/test/survey" />
     <SUITE FILE_PATH="coverage/Python$zhilianzhaopin.coverage" NAME="zhilianzhaopin Coverage Results" MODIFIED="1523946865176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spider/zhaopin" />
     <SUITE FILE_PATH="coverage/Python$main.coverage" NAME="main Coverage Results" MODIFIED="1526908974959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study/test/survey" />
+    <SUITE FILE_PATH="coverage/Python$ch02.coverage" NAME="ch02 Coverage Results" MODIFIED="1530785923033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataAnalysis/pydata" />
     <SUITE FILE_PATH="coverage/Python$tprocess_queue.coverage" NAME="tprocess_queue Coverage Results" MODIFIED="1529769542414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study/oldboy/tthreading" />
     <SUITE FILE_PATH="coverage/Python$thread_page9.coverage" NAME="thread_page9 Coverage Results" MODIFIED="1524126527010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study/zhifupython" />
     <SUITE FILE_PATH="coverage/Python$img_tools.coverage" NAME="img_tools Coverage Results" MODIFIED="1524101800335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Play/captcha" />
     <SUITE FILE_PATH="coverage/Python$tsocketserver.coverage" NAME="tsocketserver Coverage Results" MODIFIED="1528815095914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study/oldboy/tsocket" />
     <SUITE FILE_PATH="coverage/Python$fork.coverage" NAME="fork Coverage Results" MODIFIED="1529475109339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study/oldboy/tthreading" />
+    <SUITE FILE_PATH="coverage/Python$cn02.coverage" NAME="cn02 Coverage Results" MODIFIED="1530776318616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataAnalysis/pydata" />
     <SUITE FILE_PATH="coverage/Python$regedit.coverage" NAME="regedit Coverage Results" MODIFIED="1524556142197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study/test" />
     <SUITE FILE_PATH="coverage/Python$otherElement.coverage" NAME="otherElement Coverage Results" MODIFIED="1526956937799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study/oldboy/tclass" />
     <SUITE FILE_PATH="coverage/Python$predict.coverage" NAME="predict Coverage Results" MODIFIED="1523977637430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/captcha" />
@@ -45,6 +51,7 @@
     <SUITE FILE_PATH="coverage/Python$moudle_json.coverage" NAME="moudle_json Coverage Results" MODIFIED="1523599179237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study/oldboy" />
     <SUITE FILE_PATH="coverage/Python$synchrolock.coverage" NAME="synchrolock Coverage Results" MODIFIED="1528893839548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study/oldboy/tthreading" />
     <SUITE FILE_PATH="coverage/Python$condition.coverage" NAME="condition Coverage Results" MODIFIED="1529388034912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study/oldboy/tthreading" />
+    <SUITE FILE_PATH="coverage/Python$trun.coverage" NAME="trun Coverage Results" MODIFIED="1530604453808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study/oldboy/base" />
     <SUITE FILE_PATH="coverage/Python$attr.coverage" NAME="attr Coverage Results" MODIFIED="1528184616078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study/oldboy/tclass" />
     <SUITE FILE_PATH="coverage/Python$single_instance.coverage" NAME="single_instance Coverage Results" MODIFIED="1528551629637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study/oldboy/tclass" />
     <SUITE FILE_PATH="coverage/Python$test.coverage" NAME="test Coverage Results" MODIFIED="1529831862581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study/oldboy/tthreading" />
@@ -92,11 +99,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Multi-Inheritance3.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Study/oldboy/tclass/Multi-Inheritance3.py">
+      <file leaf-file-name="ch02.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DataAnalysis/pydata/ch02.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="499">
-              <caret line="91" column="17" selection-start-line="91" selection-start-column="17" selection-end-line="91" selection-end-column="17" />
+            <state relative-caret-position="465">
+              <caret line="70" column="34" selection-start-line="70" selection-start-column="34" selection-end-line="70" selection-end-column="34" />
+              <folding>
+                <element signature="e#109#118#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -142,9 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Study/oldboy/re_moudle.py" />
-        <option value="$PROJECT_DIR$/Study/oldboy/data/data_country.xml" />
-        <option value="$PROJECT_DIR$/Study/oldboy/moudle_xml.py" />
         <option value="$PROJECT_DIR$/Study/test/regedit.py" />
         <option value="$PROJECT_DIR$/Study/test/test.py" />
         <option value="$PROJECT_DIR$/Study/oldboy/tclass/before.py" />
@@ -193,6 +200,9 @@
         <option value="$PROJECT_DIR$/Study/oldboy/te.html" />
         <option value="$PROJECT_DIR$/Study/oldboy/base/args.py" />
         <option value="$PROJECT_DIR$/Study/oldboy/tclass/Multi-Inheritance3.py" />
+        <option value="$PROJECT_DIR$/Study/oldboy/base/trun.py" />
+        <option value="$PROJECT_DIR$/DataAnalysis/pydata/cn02.py" />
+        <option value="$PROJECT_DIR$/DataAnalysis/pydata/ch02.py" />
       </list>
     </option>
   </component>
@@ -223,6 +233,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -233,28 +245,19 @@
             <path>
               <item name="Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python" type="462c0819:PsiDirectoryNode" />
-              <item name="Study" type="462c0819:PsiDirectoryNode" />
+              <item name="DataAnalysis" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python" type="462c0819:PsiDirectoryNode" />
-              <item name="Study" type="462c0819:PsiDirectoryNode" />
-              <item name="oldboy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python" type="462c0819:PsiDirectoryNode" />
-              <item name="Study" type="462c0819:PsiDirectoryNode" />
-              <item name="oldboy" type="462c0819:PsiDirectoryNode" />
-              <item name="tclass" type="462c0819:PsiDirectoryNode" />
+              <item name="DataAnalysis" type="462c0819:PsiDirectoryNode" />
+              <item name="pydata" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -264,7 +267,7 @@
     <property name="add_unversioned_files" value="true&#10;D:/01-Work/Python/Study/oldboy/data/Tim.png" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
-    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="jdk.selected.JAVA_MODULE" value="9" />
     <property name="last_opened_file_path" value="D:/Anaconda3/libs" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -307,7 +310,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Multi-Inheritance3">
+  <component name="RunManager" selected="Python.ch02">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -469,45 +472,45 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="coroutine_gevent" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Study" />
+    <configuration name="ch02" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DataAnalysis" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Study/oldboy/tthreading" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DataAnalysis/pydata" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Study/oldboy/tthreading/coroutine_gevent.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataAnalysis/pydata/ch02.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="coroutine_yield" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Study" />
+    <configuration name="cn02" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DataAnalysis" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Study/oldboy/tthreading" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DataAnalysis/pydata" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Study/oldboy/tthreading/coroutine_yield.py" />
+      <option name="SCRIPT_NAME" value="D:\01-Work\Python\DataAnalysis\pydata\ch02.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="trun" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -515,12 +518,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Study/oldboy/tthreading" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Study/oldboy/base" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Study/oldboy/tthreading/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Study/oldboy/base/trun.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -598,19 +601,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
-      <item itemvalue="Python.coroutine_yield" />
-      <item itemvalue="Python.coroutine_gevent" />
-      <item itemvalue="Python.test" />
       <item itemvalue="Python.args" />
       <item itemvalue="Python.Multi-Inheritance3" />
+      <item itemvalue="Python.trun" />
+      <item itemvalue="Python.cn02" />
+      <item itemvalue="Python.ch02" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ch02" />
+        <item itemvalue="Python.cn02" />
+        <item itemvalue="Python.trun" />
         <item itemvalue="Python.Multi-Inheritance3" />
         <item itemvalue="Python.args" />
-        <item itemvalue="Python.coroutine_gevent" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.coroutine_yield" />
       </list>
     </recent_temporary>
   </component>
@@ -768,7 +771,8 @@
       <workItem from="1529824315660" duration="9377000" />
       <workItem from="1529975277790" duration="92000" />
       <workItem from="1529975436736" duration="2916000" />
-      <workItem from="1530581855298" duration="5040000" />
+      <workItem from="1530581855298" duration="8247000" />
+      <workItem from="1530773176135" duration="5358000" />
     </task>
     <task id="LOCAL-00001" summary="runoob">
       <created>1491462759698</created>
@@ -816,7 +820,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="506739000" />
+    <option name="totallyTimeSpent" value="515304000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -836,15 +840,15 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.23827533" side_tool="true" visible="true" weight="0.19354838" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.2397882" side_tool="true" visible="true" weight="0.19354838" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.19591528" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4924357" weight="0.1904762" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.76172465" visible="true" weight="0.19354838" />
-      <window_info anchor="bottom" x="0" y="0" width="1368" height="832" id="Terminal" order="7" sideWeight="0.36762482" weight="0.20903225" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7602118" visible="true" weight="0.19354838" />
+      <window_info anchor="bottom" x="0" y="0" width="1368" height="832" id="Terminal" order="7" sideWeight="0.36686838" weight="0.20903225" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49719775" visible="true" weight="0.19515885" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49719775" visible="true" weight="0.19818456" />
       <window_info anchor="right" id="Database" order="3" weight="0.09228442" />
       <window_info anchor="right" id="SciView" order="4" weight="0.18910742" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -943,34 +947,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Spider/jobs/jobs/spiders/zhipin_spider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="36" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spider/jobs/jobs/spiders/chinahr_spider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spider/jobs/jobs/spiders/dajie_spider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="43" column="35" lean-forward="true" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Study/oldboy/tclass/single_instance.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="88" column="14" selection-start-line="88" selection-start-column="14" selection-end-line="88" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Study/oldboy/data/t.png" />
     <entry file="file://$PROJECT_DIR$/Study/oldboy/tsocket/server.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1495,8 +1471,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Study/oldboy/tclass/Multi-Inheritance3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="91" column="17" selection-start-line="91" selection-start-column="17" selection-end-line="91" selection-end-column="17" />
+        <state relative-caret-position="368">
+          <caret line="85" selection-start-line="85" selection-end-line="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/oldboy/base/trun.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+          <folding>
+            <element signature="e#105#118#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/itcast/01-datatyppe.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataAnalysis/DataAnalysis.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataAnalysis/pydata/ch02.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="70" column="34" selection-start-line="70" selection-start-column="34" selection-end-line="70" selection-end-column="34" />
+          <folding>
+            <element signature="e#109#118#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
