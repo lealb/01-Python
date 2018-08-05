@@ -114,6 +114,7 @@ def get_top_time_zones3(data, n=10):
     from matplotlib import pyplot as plt
     import pandas as pd
     import numpy as np
+    import pylab
     # 初始化一些参数
     # initiation some parameters
     plt.rc('figure', figsize=(10, 6))
@@ -132,6 +133,7 @@ def get_top_time_zones3(data, n=10):
     # 为什么不能画图
     plt.figure(figsize=(10, 4))
     clean_tz_counts[:10].plot(kind='barh', rot=0)
+    pylab.show()
     # Series
     results = Series([x.split()[0] for x in frame.a.dropna()])
     print(results[:5])
